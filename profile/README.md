@@ -4,11 +4,7 @@ Sveltos provides declarative APIs allowing you to deploy Kubernetes addons acros
 
 The idea is simple:
 1. from the management cluster, selects one or more `clusters` with a Kubernetes [label selector](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors);
-2. lists which `features` need to be deployed on such clusters.
-
-where term:
-1. `clusters` represents [CAPI cluster](https://github.com/kubernetes-sigs/cluster-api/blob/main/api/v1beta1/cluster_types.go);
-2. `features` represents either an [helm release](https://helm.sh) or a Kubernetes resource.
+2. lists which Kubernetes addons need to be deployed on such clusters.
 
 ## Addons deployment
 
