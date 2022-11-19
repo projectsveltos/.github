@@ -14,7 +14,7 @@ where term:
 
 ## Addons deployment
 
-![Sveltos in action](../docs/sveltos.png)
+![Sveltos in action](https://github.com/projectsveltos/sveltos-manager/blob/main/doc/sveltos.png)
 
 Values can be passed to helm charts. Sveltos can also fetch needed values from Kubernetes instances present in the management cluster.
 For instance following ClusterProfile is reading pod CIDRs from CAPI Cluster instance.
