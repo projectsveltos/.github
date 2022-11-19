@@ -1,7 +1,5 @@
 # Sveltos
 
-<img src="https://raw.githubusercontent.com/projectsveltos/.github/main/logos/logo.png" width="200">
-
 Sveltos provides declarative APIs allowing you to deploy Kubernetes addons across multiple Kubernetes clusters.
 
 The idea is simple:
