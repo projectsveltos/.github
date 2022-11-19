@@ -31,39 +31,3 @@ Classifier currently supports the following classification criterias:
 
 ![Sveltos Classifier in action](https://github.com/projectsveltos/demos/blob/main/classifier/classifier.gif)
 
-## Display outcome of ClusterProfile's in DryRun mode
-
-A ClusterProfile can be set in DryRun mode. While in DryRun mode, nothing gets deployed/withdrawn to/from matching CAPI clusters. A report is instead generated listing what would happen if ClusterProfile sync mode would be changed from DryRun to Continuous.
-
-Here is an example of outcome
-
-```
-./bin/sveltosctl show dryrun
-+-------------------------------------+--------------------------+-----------+----------------+-----------+--------------------------------+------------------+
-|               CLUSTER               |      RESOURCE TYPE       | NAMESPACE |      NAME      |  ACTION   |            MESSAGE             | CLUSTER PROFILE |
-+-------------------------------------+--------------------------+-----------+----------------+-----------+--------------------------------+------------------+
-| default/sveltos-management-workload | helm release             | kyverno   | kyverno-latest | Install   |                                | dryrun           |
-| default/sveltos-management-workload | helm release             | nginx     | nginx-latest   | Install   |                                | dryrun           |
-| default/sveltos-management-workload | :Pod                     | default   | nginx          | No Action | Object already deployed.       | dryrun           |
-|                                     |                          |           |                |           | And policy referenced by       |                  |
-|                                     |                          |           |                |           | ClusterProfile has not changed |                  |
-|                                     |                          |           |                |           | since last deployment.         |                  |
-| default/sveltos-management-workload | kyverno.io:ClusterPolicy |           | no-gateway     | Create    |                                | dryrun           |
-+-------------------------------------+--------------------------+-----------+----------------+-----------+--------------------------------+------------------+
-```
-
-
-**show dryrun** command has some argurments which allow filtering by:
-1. clusters' namespace
-2. clusters' name
-3. ClusterProfile 
-
-```
-./bin/sveltosctl show dryrun --help  
-Usage:
-  sveltosctl show dryrun [options] [--namespace=<name>] [--cluster=<name>] [--clusterprofile=<name>] [--verbose]
-
-     --namespace=<name>      Show which features would change in clusters in this namespace. If not specified all namespaces are considered.
-     --cluster=<name>        Show which features would change in cluster with name. If not specified all cluster names are considered.
-     --clusterprofile=<name> Show which features would change because of this clusterprofile. If not specified all clusterprofile names are considered.
-```
