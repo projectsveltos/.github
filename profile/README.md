@@ -2,7 +2,7 @@
 
 Kubernetes itself is not a complete solution. To build a production cluster, you need various additional addons like CNI or CoreDNS. 
 Addon management has been a problem for a long time. Sveltos wants to figure out the best way to install, manage and deliver cluster addons. 
-It does so by providing declarative APIs allowing you to deploy Kubernetes addons across multiple Kubernetes clusters.
+It does so by providing declarative APIs allowing to easily deploy Kubernetes addons across multiple Kubernetes clusters.
 
 The idea is simple:
 1. from the management cluster, selects one or more `clusters` with a Kubernetes [label selector](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors);
@@ -27,4 +27,4 @@ Classifier currently supports the following classification criterias:
 
 ![Sveltos Classifier in action](https://github.com/projectsveltos/demos/blob/main/classifier/classifier.gif)
 
-Leave us a ⭐ if you haven't done so yet. Thanks.
+If you like the project, please leave us a ⭐ if you haven't done so yet. Thanks.
