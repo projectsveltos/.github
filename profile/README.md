@@ -29,7 +29,7 @@ Classifier currently supports the following classification criterias:
 
 ![Sveltos Classifier in action](https://github.com/projectsveltos/demos/blob/main/classifier/classifier.gif)
 
-If you like the project, please leave us a ⭐ if you haven't done so yet. Thanks.
+If you like the project, please leave us a [⭐](https://github.com/projectsveltos/sveltos-manager) if you haven't done so yet. Thank you.
 
 ## Branching model
 
