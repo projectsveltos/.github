@@ -27,3 +27,4 @@ Classifier currently supports the following classification criterias:
 
 ![Sveltos Classifier in action](https://github.com/projectsveltos/demos/blob/main/classifier/classifier.gif)
 
+Leave us a ⭐ if you haven't done so yet. Thanks.
