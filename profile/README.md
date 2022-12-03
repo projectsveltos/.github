@@ -30,3 +30,7 @@ Classifier currently supports the following classification criterias:
 ![Sveltos Classifier in action](https://github.com/projectsveltos/demos/blob/main/classifier/classifier.gif)
 
 If you like the project, please leave us a ⭐ if you haven't done so yet. Thanks.
+
+## Branching model
+
+We use the git-flow branching model. The base branch is dev. If you are looking for a stable version, please use the main branch or tags labeled as v0.x.x.
