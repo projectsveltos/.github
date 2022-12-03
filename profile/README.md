@@ -1,5 +1,7 @@
 # Sveltos
 
+[![Twitter Follow](https://img.shields.io/twitter/follow/projectsveltos?style=social)](https://twitter.com/projectsveltos)
+
 Kubernetes itself is not a complete solution. To build a production cluster, you need various additional addons like CNI or CoreDNS. 
 Addon management has been a problem for a long time. Sveltos wants to figure out the best way to install, manage and deliver cluster addons. 
 It does so by providing declarative APIs allowing to easily deploy Kubernetes addons across multiple Kubernetes clusters.
