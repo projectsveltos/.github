@@ -3,9 +3,13 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/projectsveltos?style=social)](https://twitter.com/projectsveltos)
 [![Slack](https://img.shields.io/badge/join%20slack-%23projectsveltos-brighteen)](https://join.slack.com/t/projectsveltos/shared_invite/zt-1hraownbr-W8NTs6LTimxLPB8Erj8Q6Q)
 
-Kubernetes itself is not a complete solution. To build a production cluster, you need various additional addons like CNI or CoreDNS. 
-Addon management has been a problem for a long time. Sveltos wants to figure out the best way to install, manage and deliver cluster addons. 
-It does so by providing declarative APIs allowing to easily deploy Kubernetes addons across multiple Kubernetes clusters.
+Today, it's very common for organizations to run and manage multiple Kubernetes clusters across different cloud providers or infrastructures. With an increasing number of clusters, consistently managing addons is not an easy task.
+
+Sveltos is a lightweight application designed to manage hundreds of clusters. It does so by providing declarative APIs to deploy Kubernetes addons across multiple clusters. Sveltos focuses not only on the ability to scale the number of clusters it can manage, but also to give visibility to exactly what addons are installed on each cluster.
+
+Sveltos has support to automatically discover [ClusterAPI](https://github.com/kubernetes-sigs/cluster-api) powered clusters. Any other cluster (GKE for instance) can easily be registered with Sveltos. Then, Sveltos can manage Kubernetes addons.
+
+![Sveltos in action](https://github.com/projectsveltos/sveltos-manager/blob/dev/doc/multi-clusters.png)
 
 The idea is simple:
 1. from the management cluster, selects one or more `clusters` with a Kubernetes [label selector](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors);
