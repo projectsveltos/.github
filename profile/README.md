@@ -26,6 +26,11 @@ For instance following ClusterProfile is reading pod CIDRs from CAPI Cluster ins
 
 <img src="https://raw.githubusercontent.com/projectsveltos/.github/main/docs/sveltos_calico.png" width="500">
 
+## Configuration Drift Detection
+Sveltos can automatically detect drift detection between the desired and actual state of your operations and recover from it.
+
+More info can be found [here](https://projectsveltos.github.io/sveltos/configuration/#configuration-drift).
+
 ## Cluster classification
 
 Sveltos Classifier is an optional component of the Sveltos project and it is used to dynamically classify a cluster based on its runtime configuration (Kubernetes version, deployed resources and more).
