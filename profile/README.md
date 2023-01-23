@@ -27,7 +27,7 @@ For instance following ClusterProfile is reading pod CIDRs from CAPI Cluster ins
 <img src="https://raw.githubusercontent.com/projectsveltos/.github/main/docs/sveltos_calico.png" width="500">
 
 ## Configuration Drift Detection
-Sveltos can automatically detect drift detection between the desired and actual state of your operations and recover from it.
+Sveltos can automatically detect drift detection between the desired state, defined in the management cluster, and actual state of your clusters and recover from it.
 
 ![Configuration drift recovery](https://github.com/projectsveltos/demos/blob/main/configuration_drift/reconcile_configuration_drift.gif)
 
