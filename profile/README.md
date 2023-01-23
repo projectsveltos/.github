@@ -3,7 +3,7 @@
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/projectsveltos.svg?style=social&label=Follow%20%40projectsveltos)](https://twitter.com/projectsveltos)
 [![Slack](https://img.shields.io/badge/join%20slack-%23projectsveltos-brighteen)](https://join.slack.com/t/projectsveltos/shared_invite/zt-1hraownbr-W8NTs6LTimxLPB8Erj8Q6Q)
 
-Full documentation [projectsveltos.io](http://projectsveltos.io/).
+Full documentation [projectsveltos.io](http://projectsveltos.io/). If you like the project, please leave us a [:star2:](https://github.com/projectsveltos/sveltos-manager) if you haven't done so yet. **Thank you.**
 
 Today, it's very common for organizations to run and manage multiple Kubernetes clusters across different cloud providers or infrastructures. With an increasing number of clusters, consistently managing addons is not an easy task.
 
@@ -41,8 +41,6 @@ Classifier currently supports the following classification criterias:
 
 ![Sveltos Classifier in action](https://github.com/projectsveltos/demos/blob/main/classifier/classifier.gif)
 
-If you like the project, please leave us a [⭐](https://github.com/projectsveltos/sveltos-manager) if you haven't done so yet. Thank you.
-
 ## Branching model
 
 We use the git-flow branching model. The base branch is dev. If you are looking for a stable version, please use the main branch or tags labeled as v0.x.x.
@@ -53,3 +51,6 @@ We use the git-flow branching model. The base branch is dev. If you are looking 
 1. Open a bug/feature enhancement on github [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/projectsveltos/sveltos-manager/issues)
 2. Chat with us on the Slack in the #projectsveltos channel [![Slack](https://img.shields.io/badge/join%20slack-%23projectsveltos-brighteen)](https://join.slack.com/t/projectsveltos/shared_invite/zt-1hraownbr-W8NTs6LTimxLPB8Erj8Q6Q)
 3. [Contact Us](mailto:support@projectsveltos.io)
+
+If you like the project, please leave us a [:star2:](https://github.com/projectsveltos/sveltos-manager) if you haven't done so yet. **Thank you.**
+
