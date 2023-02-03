@@ -5,7 +5,7 @@
 
 Full documentation [projectsveltos.io](http://projectsveltos.io/). 
 
-If you like the project, please leave us a [:star:](https://github.com/projectsveltos/sveltos-manager) if you haven't done so yet. **Thank you 🙏.**
+If you like the project, please leave us a [:star:](https://github.com/projectsveltos/sveltos-manager) if you haven't done so yet. Your support means a lot to us. **Thank you 🙏.**
 
 Today, it's very common for organizations to run and manage multiple Kubernetes clusters across different cloud providers or infrastructures. With an increasing number of clusters, consistently managing addons is not an easy task.
 
@@ -60,5 +60,5 @@ We use the git-flow branching model. The base branch is dev. If you are looking 
 2. Chat with us on the Slack in the #projectsveltos channel [![Slack](https://img.shields.io/badge/join%20slack-%23projectsveltos-brighteen)](https://join.slack.com/t/projectsveltos/shared_invite/zt-1hraownbr-W8NTs6LTimxLPB8Erj8Q6Q)
 3. [Contact Us](mailto:support@projectsveltos.io)
 
-If you like the project, please leave us a [:star2:](https://github.com/projectsveltos/sveltos-manager) if you haven't done so yet. **Thank you.**
+If you like the project, please leave us a [:star:](https://github.com/projectsveltos/sveltos-manager) if you haven't done so yet. Your support means a lot to us. **Thank you :pray:.**
 
