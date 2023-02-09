@@ -3,7 +3,7 @@
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/projectsveltos.svg?style=social&label=Follow%20%40projectsveltos)](https://twitter.com/projectsveltos)
 [![Slack](https://img.shields.io/badge/join%20slack-%23projectsveltos-brighteen)](https://join.slack.com/t/projectsveltos/shared_invite/zt-1hraownbr-W8NTs6LTimxLPB8Erj8Q6Q)
 
-Full documentation [projectsveltos.io](http://projectsveltos.io/). 
+Full documentation [projectsveltos.io](http://projectsveltos.io/).
 
 If you like the project, please leave us a [:star:](https://github.com/projectsveltos/sveltos-manager) if you haven't done so yet. Your support means a lot to us. **Thank you 🙏.**
 
@@ -45,7 +45,7 @@ Classifier currently supports the following classification criterias:
 
 ## Multi-tenancy
 
-Sveltos provides platform admin with an easy way to grant permissions to tenant admins. Tenant admins can then use Sveltos to deploy tenant applications. 
+Sveltos provides platform admin with an easy way to grant permissions to tenant admins. Tenant admins can then use Sveltos to deploy tenant applications.
 
 ![Sveltos Classifier in action](https://github.com/projectsveltos/demos/blob/main/multi-tenancy/multi_tenancy.gif)
 
@@ -53,12 +53,14 @@ Sveltos provides platform admin with an easy way to grant permissions to tenant 
 
 We use the git-flow branching model. The base branch is dev. If you are looking for a stable version, please use the main branch or tags labeled as v0.x.x.
 
-## Contributing 
+## Contributing
 ❤️ Your contributions are always welcome! If you want to contribute, have questions, noticed any bug or want to get the latest project news, you can connect with us in the following ways:
 
 1. Open a bug/feature enhancement on github [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/projectsveltos/sveltos-manager/issues)
 2. Chat with us on the Slack in the #projectsveltos channel [![Slack](https://img.shields.io/badge/join%20slack-%23projectsveltos-brighteen)](https://join.slack.com/t/projectsveltos/shared_invite/zt-1hraownbr-W8NTs6LTimxLPB8Erj8Q6Q)
 3. [Contact Us](mailto:support@projectsveltos.io)
+
+## 👏 Support this project
 
 If you like the project, please leave us a [:star:](https://github.com/projectsveltos/sveltos-manager) if you haven't done so yet. Your support means a lot to us. **Thank you :pray:.**
 
