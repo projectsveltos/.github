@@ -62,5 +62,5 @@ We use the git-flow branching model. The base branch is dev. If you are looking 
 
 ## 👏 Support this project
 
-If you like the project, please leave us a [:star:](https://github.com/projectsveltos/sveltos-manager) if you haven't done so yet. Your support means a lot to us. **Thank you :pray:.**
+If you like the project, please [give us a](https://github.com/projectsveltos/sveltos-manager) [:star:](https://github.com/projectsveltos/sveltos-manager) if you haven't done so yet. Your support means a lot to us. **Thank you :pray:.**
 
