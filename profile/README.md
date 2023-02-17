@@ -7,19 +7,28 @@ Full documentation [projectsveltos.io](http://projectsveltos.io/).
 
 If you like the project, please [give us a](https://github.com/projectsveltos/sveltos-manager) [:star:](https://github.com/projectsveltos/sveltos-manager) if you haven't done so yet. Your support means a lot to us. **Thank you 🙏.**
 
-Today, it's very common for organizations to run and manage multiple Kubernetes clusters across different cloud providers or infrastructures. With an increasing number of clusters, consistently managing add-ons is not an easy task.
+Sveltos is a lightweight application designed to manage Kubernetes add-ons in hundreds of clusters. 
 
-Sveltos is a lightweight application designed to manage add-ons in hundreds of clusters. Sveltos focuses not only on the ability to scale the number of clusters it can manage, but also to give visibility to exactly which add-ons are installed on each cluster. All while also offering platform admins with a multi-tenancy solution, easily allowing to onboard and programmatically grant permissions to tenant admins.
+Sveltos comes with support to automatically discover [ClusterAPI](https://github.com/kubernetes-sigs/cluster-api) powered clusters. Any other cluster (GKE for instance) can easily be registered with Sveltos. Then, Sveltos can manage Kubernetes add-ons on all the clusters seamlessly.
 
-Sveltos comes with support to automatically discover [ClusterAPI](https://github.com/kubernetes-sigs/cluster-api) powered clusters. Any other cluster (GKE for instance) can easily be registered with Sveltos. Then, Sveltos can manage Kubernetes add-ons on all the clusters seamless.
+## Features List
+
+1. Kubernetes [add-on distribution](https://projectsveltos.github.io/sveltos/addons/) across multiple clusters;
+2. [Configuration drift detection](https://projectsveltos.github.io/sveltos/configuration_drift/);
+3. [Templates](https://projectsveltos.github.io/sveltos/template/) instantiated reading values from management cluster;
+4. [Multi-tenancy](https://projectsveltos.github.io/sveltos/multi-tenancy/) allowing platform admin to easily grant permissions to tenant admins and have Sveltos enforces those;
+5. [Dry run](https://projectsveltos.github.io/sveltos/configuration/#dryrun-mode) to preview effect of a change;
+6. Kubernetes [cluster classification](https://projectsveltos.github.io/sveltos/labels_management/) and automatic label management based on cluster runtime states;
+7. Configuration [snapshots and rollback](https://projectsveltos.github.io/sveltos/snapshot/).
 
 ![Sveltos in action](https://github.com/projectsveltos/sveltos-manager/blob/dev/doc/multi-clusters.png)
+
+
+## Add-ons deployment
 
 The idea is simple:
 1. from the management cluster, selects one or more `clusters` with a Kubernetes [label selector](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors);
 2. lists which Kubernetes add-ons need to be deployed on such clusters.
-
-## Add-ons deployment
 
 ![Sveltos in action](https://github.com/projectsveltos/sveltos-manager/blob/main/doc/sveltos.png)
 
