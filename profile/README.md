@@ -32,6 +32,8 @@ The idea is simple:
 
 ![Sveltos in action](https://github.com/projectsveltos/sveltos-manager/blob/main/doc/sveltos.png)
 
+## Template
+
 Values can be passed to helm charts. Sveltos can also fetch needed values from Kubernetes instances present in the management cluster.
 For instance following ClusterProfile is reading pod CIDRs from CAPI Cluster instance.
 
