@@ -15,11 +15,12 @@ Sveltos comes with support to automatically discover [ClusterAPI](https://github
 
 1. Kubernetes [add-on distribution](https://projectsveltos.github.io/sveltos/addons/) across multiple clusters;
 2. [Configuration drift detection](https://projectsveltos.github.io/sveltos/configuration_drift/);
-3. [Templates](https://projectsveltos.github.io/sveltos/template/) instantiated reading values from management cluster;
-4. [Multi-tenancy](https://projectsveltos.github.io/sveltos/multi-tenancy/) allowing platform admin to easily grant permissions to tenant admins and have Sveltos enforces those;
-5. [Dry run](https://projectsveltos.github.io/sveltos/configuration/#dryrun-mode) to preview effect of a change;
-6. Kubernetes [cluster classification](https://projectsveltos.github.io/sveltos/labels_management/) and automatic label management based on cluster runtime states;
-7. Configuration [snapshots and rollback](https://projectsveltos.github.io/sveltos/snapshot/).
+3. [Notification](https://github.com/projectsveltos/sveltos/blob/main/docs/notifications.md): Sveltos can be configured to send notifications (Kubernetes event and Slack messages) when for instance all add-ons are deployed in a cluster;
+4. [Templates](https://projectsveltos.github.io/sveltos/template/) instantiated reading values from management cluster;
+5. [Multi-tenancy](https://projectsveltos.github.io/sveltos/multi-tenancy/) allowing platform admin to easily grant permissions to tenant admins and have Sveltos enforces those;
+6. [Dry run](https://projectsveltos.github.io/sveltos/configuration/#dryrun-mode) to preview effect of a change;
+7. Kubernetes [cluster classification](https://projectsveltos.github.io/sveltos/labels_management/) and automatic label management based on cluster runtime states;
+8. Configuration [snapshots and rollback](https://projectsveltos.github.io/sveltos/snapshot/).
 
 ![Sveltos in action](https://github.com/projectsveltos/sveltos-manager/blob/dev/doc/multi-clusters.png)
 
