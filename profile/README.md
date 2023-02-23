@@ -20,7 +20,8 @@ Sveltos comes with support to automatically discover [ClusterAPI](https://github
 5. [Multi-tenancy](https://projectsveltos.github.io/sveltos/multi-tenancy/) allowing platform admin to easily grant permissions to tenant admins and have Sveltos enforces those;
 6. [Dry run](https://projectsveltos.github.io/sveltos/configuration/#dryrun-mode) to preview effect of a change;
 7. Kubernetes [cluster classification](https://projectsveltos.github.io/sveltos/labels_management/) and automatic label management based on cluster runtime states;
-8. Configuration [snapshots and rollback](https://projectsveltos.github.io/sveltos/snapshot/).
+8. [Techsupport](https://projectsveltos.github.io/sveltos/techsupport/): collect tech support from managed clusters;
+9. Configuration [snapshots and rollback](https://projectsveltos.github.io/sveltos/snapshot/).
 
 ![Sveltos in action](https://github.com/projectsveltos/sveltos-manager/blob/dev/doc/multi-clusters.png)
 
