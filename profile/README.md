@@ -14,6 +14,7 @@ Sveltos comes with support to automatically discover [ClusterAPI](https://github
 ## Features List
 
 1. Kubernetes [add-on distribution](https://projectsveltos.github.io/sveltos/addons/) across multiple clusters;
+2. [Event driven framework](https://projectsveltos.github.io/sveltos/addon_event_deployment/) to deploy add-ons as response to events in managed clusters. Event can be defined in the form of Lua script. Add-ons can be expressed as template and instantiated using information from resources in the managed clusters;
 2. [Configuration drift detection](https://projectsveltos.github.io/sveltos/configuration_drift/);
 3. [Notification](https://github.com/projectsveltos/sveltos/blob/main/docs/notifications.md): Sveltos can be configured to send notifications (Kubernetes event and Slack messages) when for instance all add-ons are deployed in a cluster;
 4. [Templates](https://projectsveltos.github.io/sveltos/template/) instantiated reading values from management cluster;
