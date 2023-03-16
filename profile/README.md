@@ -42,6 +42,15 @@ For instance following ClusterProfile is reading pod CIDRs from CAPI Cluster ins
 
 <img src="https://raw.githubusercontent.com/projectsveltos/.github/main/docs/sveltos_calico.png" width="500">
 
+## Event driven framework
+
+Sveltos supports defining an event using Lua. Sveltos can be instructed to deploy add-ons when an event happens in any of the managed cluster.
+
+In this example an event is defined as creation/deletion of a Service instance in certain managed cluster. When an instance of such event happens, Sveltos is instructed to create a NetworkPolicy opening traffic to that service.
+
+![Configuration drift recovery](https://github.com/projectsveltos/demos/blob/main/event-driven/event_driven_framework.gif)
+
+
 ## Configuration Drift Detection
 Sveltos can automatically detect drift detection between the desired state, defined in the management cluster, and actual state of your clusters and recover from it.
 
