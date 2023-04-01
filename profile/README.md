@@ -55,7 +55,7 @@ In this example an event is defined as creation/deletion of a Service instance i
 
 With Sveltos' event-driven framework, your add-ons will be automatically deployed to the same cluster where the event is detected, allowing for quick and easy deployment. But that's not all - Sveltos can also be configured for cross-cluster configuration, so you can watch for events in one cluster and deploy add-ons to a set of different clusters. With Sveltos, managing add-ons in Kubernetes has never been easier!
 
-![Event driven framework](https://projectsveltos.github.io/sveltos/assets/event_based_cross_cluster.gif)
+![Event driven framework](https://github.com/projectsveltos/sveltos/raw/main/docs/assets/event_based_cross_cluster.gif)
 
 ## Configuration Drift Detection
 Sveltos can automatically detect drift detection between the desired state, defined in the management cluster, and actual state of your clusters and recover from it.
