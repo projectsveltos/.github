@@ -3,13 +3,14 @@
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/projectsveltos.svg?style=social&label=Follow%20%40projectsveltos)](https://twitter.com/projectsveltos)
 [![Slack](https://img.shields.io/badge/join%20slack-%23projectsveltos-brighteen)](https://join.slack.com/t/projectsveltos/shared_invite/zt-1hraownbr-W8NTs6LTimxLPB8Erj8Q6Q)
 
-Full documentation [projectsveltos.io](http://projectsveltos.io/).
 
-If you like the project, please [give us a](https://github.com/projectsveltos/sveltos-manager) [:star:](https://github.com/projectsveltos/sveltos-manager) if you haven't done so yet. Your support means a lot to us. **Thank you 🙏.**
+Hey there! Are you a Kubernetes enthusiast looking for a lightweight application to manage add-ons in hundreds of clusters? Look no further than Sveltos!
 
-Sveltos is a lightweight application designed to manage Kubernetes add-ons in hundreds of clusters. 
+Sveltos is a powerful tool that makes managing Kubernetes add-ons a breeze. It automatically discovers [ClusterAPI](https://github.com/kubernetes-sigs/cluster-api) powered clusters and allows you to easily register any other cluster (like GKE). Then, it seamlessly manages Kubernetes add-ons across all your clusters.
 
-Sveltos comes with support to automatically discover [ClusterAPI](https://github.com/kubernetes-sigs/cluster-api) powered clusters. Any other cluster (GKE for instance) can easily be registered with Sveltos. Then, Sveltos can manage Kubernetes add-ons on all the clusters seamlessly.
+But that's not all! Sveltos comes loaded with features like event-driven add-on deployment (using Lua scripts), configuration drift detection, and multi-tenancy to easily manage permissions for tenant admins. You can even preview changes with a dry run and rollback configurations with ease.
+
+And let's not forget about the documentation! Head over to [projectsveltos.io](http://projectsveltos.io/) for the full scoop. And if you love Sveltos as much as we do, show us some love with a [:star:](https://github.com/projectsveltos/sveltos-manager). Your support means a lot to us. **Thank you 🙏.**
 
 ## Features List
 
