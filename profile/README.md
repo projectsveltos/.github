@@ -6,7 +6,7 @@
 
 Hey there! Are you a Kubernetes enthusiast looking for a lightweight application to manage add-ons in hundreds of clusters? Look no further than Sveltos!
 
-Sveltos is a powerful tool that makes managing Kubernetes add-ons a breeze. It automatically discovers [ClusterAPI](https://github.com/kubernetes-sigs/cluster-api) powered clusters and allows you to easily register any other cluster (like GKE). Then, it seamlessly manages Kubernetes add-ons across all your clusters.
+Sveltos is a powerful open source project that makes managing Kubernetes add-ons a breeze. It automatically discovers [ClusterAPI](https://github.com/kubernetes-sigs/cluster-api) powered clusters and allows you to easily register any other cluster (like GKE). Then, it seamlessly manages Kubernetes add-ons across all your clusters.
 
 But that's not all! Sveltos comes loaded with features like event-driven add-on deployment (using Lua scripts), configuration drift detection, and multi-tenancy to easily manage permissions for tenant admins. You can even preview changes with a dry run and rollback configurations with ease.
 
