@@ -10,7 +10,10 @@ Sveltos is a powerful open source project that makes managing Kubernetes add-ons
 
 But that's not all! Sveltos comes loaded with features like event-driven add-on deployment (using Lua scripts), configuration drift detection, and multi-tenancy to easily manage permissions for tenant admins. You can even preview changes with a dry run and rollback configurations with ease.
 
-And let's not forget about the documentation! Head over to [projectsveltos.io](http://projectsveltos.io/) for the full scoop. And if you love Sveltos as much as we do, show us some love with a [:star:](https://github.com/projectsveltos/sveltos-manager). Your support means a lot to us. **Thank you 🙏.**
+And let's not forget about the documentation! Head over to [projectsveltos.io](http://projectsveltos.io/) for the full scoop. 
+
+And if you love Sveltos as much as we do, show us some love with a [:star:](https://github.com/projectsveltos/sveltos-manager). 
+Your support means a lot to us. **Thank you 🙏.**
 
 ## Features List
 
