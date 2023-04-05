@@ -12,7 +12,7 @@ But that's not all! Sveltos comes loaded with features like event-driven add-on 
 
 And let's not forget about the documentation! Head over to [projectsveltos.io](http://projectsveltos.io/) for the full scoop. 
 
-And if you love Sveltos as much as we do, show us some love with a [:star:](https://github.com/projectsveltos/sveltos-manager). 
+And if you love Sveltos as much as we do, [give us](https://github.com/projectsveltos/sveltos-manager) a [:star:](https://github.com/projectsveltos/sveltos-manager). 
 Your support means a lot to us. **Thank you 🙏.**
 
 ## Features List
