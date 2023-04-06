@@ -47,6 +47,11 @@ For instance following ClusterProfile is reading pod CIDRs from CAPI Cluster ins
 
 <img src="https://raw.githubusercontent.com/projectsveltos/.github/main/docs/sveltos_calico.png" width="500">
 
+## Snapshot and configuration diff
+Take configuration snapshots and display diff
+
+<img src="https://raw.githubusercontent.com/gianlucam75/.github/diff/docs/snapshot_diff.png" width="500">
+
 ## Event driven framework
 
 Sveltos supports defining an event using Lua. Sveltos can be instructed to deploy add-ons when an event happens in any of the managed cluster.
