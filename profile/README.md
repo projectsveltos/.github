@@ -50,7 +50,7 @@ For instance following ClusterProfile is reading pod CIDRs from CAPI Cluster ins
 ## Snapshot and configuration diff
 Take configuration snapshots and display diff
 
-<img src="https://raw.githubusercontent.com/gianlucam75/.github/diff/docs/snapshot_diff.png" width="500">
+<img src="https://raw.githubusercontent.com/projectsveltos/.github/main/docs/snapshot_diff.png" width="500">
 
 ## Event driven framework
 
