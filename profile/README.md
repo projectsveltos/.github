@@ -23,7 +23,7 @@ Your support means a lot to us. **Thank you 🙏.**
 4. Sveltos' event driven framework can also be configured for [cross-cluster configuration](https://projectsveltos.github.io/sveltos/addon_event_deployment/#cross-clusters);
 5. [Sveltos extensions](https://projectsveltos.github.io/sveltos/extensions/) expand Sveltos by incorporating your own controller to dynamically generate the necessary information required for deploying addons via an automated process;
 6. [Configuration drift detection](https://projectsveltos.github.io/sveltos/configuration_drift/);
-7. [Dry run](https://projectsveltos.github.io/sveltos/configuration/#dryrun-mode) to preview effect of a change;
+7. [Dry run](https://projectsveltos.github.io/sveltos/dryrun/) to preview effect of a change;
 8. [Notification](https://projectsveltos.github.io/sveltos/notifications): Sveltos can be configured to send notifications (Kubernetes event and Slack, Webex messages) when for instance all add-ons are deployed in a cluster;
 9. Kubernetes [cluster classification](https://projectsveltos.github.io/sveltos/labels_management/) and automatic label management based on cluster runtime states;
 10. [Multi-tenancy](https://projectsveltos.github.io/sveltos/multi-tenancy/) allowing platform admin to easily grant permissions to tenant admins and have Sveltos enforces those;
