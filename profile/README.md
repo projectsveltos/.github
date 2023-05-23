@@ -17,7 +17,7 @@ Your support means a lot to us. **Thank you 🙏.**
 
 ## Features List
 
-1. Kubernetes [add-on distribution](https://projectsveltos.github.io/sveltos/addons/) across multiple clusters. Addons can be expressed as Helm charts, Kustomize or resource YAMLs;
+1. Kubernetes [add-on distribution](https://projectsveltos.github.io/sveltos/addons/) across multiple clusters. Addons can be expressed as Helm charts, Kustomize or resource YAMLs. [Carvel ytt](https://projectsveltos.github.io/sveltos/ytt_extension/) is also supported;
 2. Addons can be represented as [templates](https://projectsveltos.github.io/sveltos/template/) and instantiated using values from management cluster resources. Sveltos can fetch any resource in the management cluster provided that the appropriate RBAC permissions are granted;
 3. [Event driven framework](https://projectsveltos.github.io/sveltos/addon_event_deployment/) to deploy add-ons as response to events in managed clusters. Event can be defined in the form of Lua script;
 4. Sveltos' event driven framework can also be configured for [cross-cluster configuration](https://projectsveltos.github.io/sveltos/addon_event_deployment/#cross-clusters);
