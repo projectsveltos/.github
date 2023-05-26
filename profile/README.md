@@ -17,7 +17,7 @@ Your support means a lot to us. **Thank you 🙏.**
 
 ## Features List
 
-1. Kubernetes [add-on distribution](https://projectsveltos.github.io/sveltos/addons/) across multiple clusters. Addons can be expressed as Helm charts, Kustomize or resource YAMLs. [Carvel ytt](https://projectsveltos.github.io/sveltos/ytt_extension/) is also supported;
+1. Kubernetes [add-on distribution](https://projectsveltos.github.io/sveltos/addons/) across multiple clusters. Addons can be expressed as Helm charts, Kustomize or resource YAMLs. [Carvel ytt](https://projectsveltos.github.io/sveltos/ytt_extension/) and [Jsonnet](https://projectsveltos.github.io/sveltos/jsonnet_extension/) are also supported;
 2. Addons can be represented as [templates](https://projectsveltos.github.io/sveltos/template/) and instantiated using values from management cluster resources. Sveltos can fetch any resource in the management cluster provided that the appropriate RBAC permissions are granted;
 3. [Event driven framework](https://projectsveltos.github.io/sveltos/addon_event_deployment/) to deploy add-ons as response to events in managed clusters. Event can be defined in the form of Lua script;
 4. Sveltos' event driven framework can also be configured for [cross-cluster configuration](https://projectsveltos.github.io/sveltos/addon_event_deployment/#cross-clusters);
@@ -30,28 +30,35 @@ Your support means a lot to us. **Thank you 🙏.**
 11. [Techsupport](https://projectsveltos.github.io/sveltos/techsupport/): collect tech support from managed clusters;
 12. Configuration [snapshots, diff and rollback](https://projectsveltos.github.io/sveltos/snapshot/): freeze your policy configurations in time, compare changes between snapshots, and roll back or forward to any saved snapshot.
 
-![Sveltos in action](https://github.com/projectsveltos/sveltos-manager/blob/dev/doc/multi-clusters.png)
-
-
+<p align="center">
+ <img alt="Sveltos Kubernetes add-ons management across clusters" src="https://github.com/projectsveltos/sveltos-manager/blob/dev/doc/multi-clusters.png" width="550"/>
+</p>
+  
 ## Add-ons deployment
 
 The idea is simple:
 1. from the management cluster, selects one or more `clusters` with a Kubernetes [label selector](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors);
 2. lists which Kubernetes add-ons need to be deployed on such clusters.
 
-![Sveltos in action](https://github.com/projectsveltos/sveltos-manager/blob/main/doc/sveltos.png)
+<p align="center">
+ <img alt="Sveltos Kubernetes add-ons management across clusters" src="https://github.com/projectsveltos/sveltos-manager/blob/main/doc/sveltos.png" width="550"/>
+</p>
 
 ## Template
 
 Values can be passed to helm charts. Sveltos can also fetch needed values from Kubernetes instances present in the management cluster.
 For instance following ClusterProfile is reading pod CIDRs from CAPI Cluster instance.
 
-<img src="https://raw.githubusercontent.com/projectsveltos/.github/main/docs/sveltos_calico.png" width="500">
+<p align="center">
+ <img alt="Sveltos Kubernetes add-ons management across clusters" src="https://raw.githubusercontent.com/projectsveltos/.github/main/docs/sveltos_calico.png" width="450"/>
+</p>
 
 ## Snapshot and configuration diff
 Take configuration snapshots and display diff
 
-<img src="https://raw.githubusercontent.com/projectsveltos/.github/main/docs/snapshot_diff.png" width="700">
+<p align="center">
+ <img alt="Sveltos Kubernetes add-ons management across clusters" src="https://raw.githubusercontent.com/projectsveltos/.github/main/docs/snapshot_diff.png" width="650"/>
+</p>
 
 ## Event driven framework
 
@@ -92,7 +99,10 @@ Sveltos provides platform admin with an easy way to grant permissions to tenant 
 
 When you must dynamically produce information before deploying addons, create your own controller and integrate it with Sveltos.
 
-![Sveltos Extensions](https://github.com/projectsveltos/sveltos/raw/main/docs/assets/sveltos-extension.png)
+<div>
+ <img alt="Sveltos Extension" src="https://github.com/projectsveltos/sveltos/raw/main/docs/assets/sveltos-extension.png" width="450"/>
+ <img alt="Sveltos, Flux and Carvel ytt" src="https://github.com/projectsveltos/sveltos/raw/main/docs/assets/flux-ytt-sveltos.png" width="450"/>
+</div>
 
 ## Branching model
 
