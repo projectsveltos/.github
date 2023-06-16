@@ -54,6 +54,12 @@ For instance following ClusterProfile is reading pod CIDRs from CAPI Cluster ins
  <img alt="Sveltos Kubernetes add-ons management across clusters" src="https://raw.githubusercontent.com/projectsveltos/.github/main/docs/sveltos_calico.png" width="450"/>
 </p>
 
+## Add-on constraint
+
+Use OpenAPI to define configuration add-on constraints. Let Sveltos enforces those.
+
+![Event driven framework](https://github.com/projectsveltos/sveltos/raw/main/docs/assets/addon_constraint.gif)
+
 ## Snapshot and configuration diff
 Take configuration snapshots and display diff
 
