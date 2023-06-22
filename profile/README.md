@@ -5,7 +5,9 @@
 
 Sveltos Kubernetes add-on controller simplifies the deployment and management of add-ons in hundreds of Kubernetes clusters. With Sveltos, you can easily automate the deployment process and ensure consistency across your cluster environments. Plus, Sveltos provides platform admins with a solution for multi-tenancy, making it even easier to manage permissions for tenant admins.
 
-![Kubernetes add-on deployment](https://github.com/projectsveltos/sveltos/blob/main/docs/assets/addons_deployment.gif)
+<p align="center">
+  <img alt="Sveltos Kubernetes add-ons management across clusters" src="https://github.com/projectsveltos/sveltos-manager/blob/dev/doc/multi-clusters.png" width="600"/>
+ </p>
 
 ## Features
 
@@ -21,7 +23,7 @@ Sveltos Kubernetes add-on controller simplifies the deployment and management of
 * Deploy add-ons in response to events
 * Define events in [Lua scripts](https://github.com/projectsveltos/sveltos/blob/main/docs/addon_event_deployment.md#event-definition)
 * Framework for [cross-cluster configuration](https://projectsveltos.github.io/sveltos/addon_event_deployment/#cross-clusters)
-  
+
 ## Other Features
 * [Configuration drift detection](https://projectsveltos.github.io/sveltos/configuration_drift/)
 * [Dry run](https://projectsveltos.github.io/sveltos/dryrun/)
@@ -30,6 +32,8 @@ Sveltos Kubernetes add-on controller simplifies the deployment and management of
 * [Multi-tenancy](https://projectsveltos.github.io/sveltos/multi-tenancy/)
 * [Techsupport](https://projectsveltos.github.io/sveltos/techsupport/)
 * [Snapshot and rollback](https://projectsveltos.github.io/sveltos/snapshot/)
+
+![Kubernetes add-on deployment](https://github.com/projectsveltos/sveltos/blob/main/docs/assets/addons_deployment.gif)
 
 ![Kubernetes cluster classification](https://github.com/projectsveltos/sveltos/blob/main/docs/assets/classifier.gif)
 
