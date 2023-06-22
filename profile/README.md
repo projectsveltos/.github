@@ -38,7 +38,7 @@ Sveltos Kubernetes add-on controller simplifies the deployment and management of
 ## Documentation
 
 * [Full documentation](https://projectsveltos.github.io/sveltos/)
-* [Quickstart guide](https://projectsveltos.github.io/sveltos/quickstart/)
+* [Quickstart guide](https://projectsveltos.github.io/sveltos/quick_start/)
 
 ## Branching model
 
