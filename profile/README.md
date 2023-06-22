@@ -3,7 +3,7 @@
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/projectsveltos.svg?style=social&label=Follow%20%40projectsveltos)](https://twitter.com/projectsveltos)
 [![Slack](https://img.shields.io/badge/join%20slack-%23projectsveltos-brighteen)](https://join.slack.com/t/projectsveltos/shared_invite/zt-1hraownbr-W8NTs6LTimxLPB8Erj8Q6Q)
 
-Sveltos Kubernetes add-on controller simplifies the deployment and management of add-ons in hundreds of Kubernetes clusters. With Sveltos controller, you can easily automate the deployment process and ensure consistency across your cluster environments. Plus, Sveltos provides platform admins with a solution for multi-tenancy, making it even easier to manage permissions for tenant admins.
+Sveltos Kubernetes add-on controller simplifies the deployment and management of add-ons in hundreds of Kubernetes clusters. With Sveltos, you can easily automate the deployment process and ensure consistency across your cluster environments. Plus, Sveltos provides platform admins with a solution for multi-tenancy, making it even easier to manage permissions for tenant admins.
 
 ![Kubernetes add=on deployment](https://github.com/projectsveltos/sveltos/blob/main/docs/assets/addons_deployment.gif)
 
