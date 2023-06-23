@@ -65,8 +65,8 @@ We love to hear from our community!
 
 ## Contact
 
-* <img src="../docs/slack_logo.png" alt="Slack" width="25" /> [Slack](https://projectsveltos.slack.com/)
-* <img src="../docs/email_logo.png" alt="Email" width="25" /> [Email](mailto:hello@projectsveltos.io)
+* <img src="https://github.com/projectsveltos/.github/blob/main/docs/slack_logo.png" alt="Slack" width="25" /> [Slack](https://projectsveltos.slack.com/)
+* <img src="https://github.com/projectsveltos/.github/blob/main/docs/email_logo.png" alt="Email" width="25" /> [Email](mailto:hello@projectsveltos.io)
 
 ## License
 
