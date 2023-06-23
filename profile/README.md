@@ -3,6 +3,10 @@
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/projectsveltos.svg?style=social&label=Follow%20%40projectsveltos)](https://twitter.com/projectsveltos)
 [![Slack](https://img.shields.io/badge/join%20slack-%23projectsveltos-brighteen)](https://join.slack.com/t/projectsveltos/shared_invite/zt-1hraownbr-W8NTs6LTimxLPB8Erj8Q6Q)
 
+👋 Welcome to our project! Our [documentation](https://projectsveltos.github.io/sveltos/) can help you get started and provides lots of in-depth information.
+
+## ✨ What is the Projectsveltos?
+
 Sveltos Kubernetes add-on controller simplifies the deployment and management of add-ons in hundreds of Kubernetes clusters. With Sveltos, you can easily automate the deployment process and ensure consistency across your cluster environments. Plus, Sveltos provides platform admins with a solution for multi-tenancy, making it even easier to manage permissions for tenant admins.
 
 <p align="center">
@@ -51,7 +55,7 @@ Sveltos Kubernetes add-on controller simplifies the deployment and management of
 
 We use the git-flow branching model. The base branch is dev. If you are looking for a stable version, please use the main branch or tags labeled as v0.x.x.
 
-## Contributing to Sveltos
+## 🤗 Contributing to Sveltos
 
 We love to hear from our community!
 
@@ -61,8 +65,8 @@ We love to hear from our community!
 
 ## Contact
 
-* [Slack](https://projectsveltos.slack.com/)
-* [Email](mailto:hello@projectsveltos.io)
+* <img src="../docs/slack_logo.png" alt="Slack" width="25" /> [Slack](https://projectsveltos.slack.com/)
+* <img src="../docs/email_logo.png" alt="Email" width="25" /> [Email](mailto:hello@projectsveltos.io)
 
 ## License
 
