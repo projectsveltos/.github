@@ -7,7 +7,7 @@
 
 ## ✨ What is the Projectsveltos?
 
-Sveltos Kubernetes add-on controller simplifies the deployment and management of add-ons in hundreds of Kubernetes clusters. With Sveltos, you can easily automate the deployment process and ensure consistency across your cluster environments. Plus, Sveltos provides platform admins with a solution for multi-tenancy, making it even easier to manage permissions for tenant admins.
+Sveltos Kubernetes add-on controller simplifies the deployment and management of add-ons across numerous Kubernetes clusters. It offers support for Helm charts, YAMLs, and Kustomize. With Sveltos, automating the add-on deployment process becomes effortless, ensuring consistency throughout your cluster environments. Additionally, Sveltos provides a solution for platform admins to easily manage permissions for tenant admins, thereby facilitating multi-tenancy.
 
 <p align="center">
   <img alt="Sveltos Kubernetes add-ons management across clusters" src="https://github.com/projectsveltos/sveltos-manager/blob/dev/doc/multi-clusters.png" width="600"/>
