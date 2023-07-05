@@ -48,7 +48,7 @@ Sveltos Kubernetes add-on controller simplifies the deployment and management of
 
  Use OpenAPI or Lua to define configuration add-on compliances. Let Sveltos enforces those.
 
- ![Event driven framework](https://github.com/projectsveltos/sveltos/raw/main/docs/assets/addon_constraint.gif)
+ ![Event driven framework](https://github.com/projectsveltos/sveltos/raw/main/docs/assets/addon_compliance.gif)
 
 ## Event driven framework
 
