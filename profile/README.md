@@ -37,8 +37,45 @@ Sveltos Kubernetes add-on controller simplifies the deployment and management of
 * [Techsupport](https://projectsveltos.github.io/sveltos/techsupport/)
 * [Snapshot and rollback](https://projectsveltos.github.io/sveltos/snapshot/)
 
+## Add-ons deployment
+
+1. from the management cluster, selects one or more `clusters` with a Kubernetes [label selector](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors);
+2. lists which Kubernetes add-ons need to be deployed on such clusters.
+
 ![Kubernetes add-on deployment](https://github.com/projectsveltos/sveltos/blob/main/docs/assets/addons_deployment.gif)
 
+## Add-on compliance
+
+ Use OpenAPI or Lua to define configuration add-on compliances. Let Sveltos enforces those.
+
+ ![Event driven framework](https://github.com/projectsveltos/sveltos/raw/main/docs/assets/addon_constraint.gif)
+
+## Event driven framework
+
+Sveltos supports defining an event using Lua. Sveltos can be instructed to deploy add-ons when an event happens in any of the managed cluster.
+In this example an event is defined as creation/deletion of a Service instance in certain managed cluster. When an instance of such event happens, Sveltos is instructed to create a NetworkPolicy opening traffic to that service.
+
+![Event driven framework](https://github.com/projectsveltos/demos/blob/main/event-driven/event_driven_framework.gif)
+
+## Event driven framework: cross cluster configuration
+
+With Sveltos' event-driven framework, your add-ons will be automatically deployed to the same cluster where the event is detected, allowing for quick and easy deployment. But that's not all - Sveltos can also be configured for cross-cluster configuration, so you can watch for events in one cluster and deploy add-ons to a set of different clusters. With Sveltos, managing add-ons in Kubernetes has never been easier!
+
+![Event driven framework](https://github.com/projectsveltos/sveltos/raw/main/docs/assets/event_based_cross_cluster.gif)
+
+## Configuration Drift Detection
+Sveltos can automatically detect drift detection between the desired state, defined in the management cluster, and actual state of your clusters and recover from it.
+
+![Configuration drift recovery](https://github.com/projectsveltos/demos/blob/main/configuration_drift/reconcile_configuration_drift.gif)
+
+## Cluster classification
+
+Sveltos Classifier is an optional component of the Sveltos project and it is used to dynamically classify a cluster based on its runtime configuration (Kubernetes version, deployed resources and more).
+
+Classifier currently supports the following classification criterias:
+1. Kubernetes version
+2. Kubernetes resources
+   
 ![Kubernetes cluster classification](https://github.com/projectsveltos/sveltos/blob/main/docs/assets/classifier.gif)
 
 ## Getting Started
