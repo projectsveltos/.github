@@ -109,4 +109,4 @@ We love to hear from our community!
 
 Sveltos is licensed under the Apache License, Version 2.0.
 
-If you like Sveltos, please [star](https://github.com/projectsveltos/sveltos-manager) [:star:](https://github.com/projectsveltos/sveltos-manager) the project on GitHub! This will help other people find it and learn more about it.
+If you like Sveltos, please [star](https://github.com/projectsveltos/addon-controller) [:star:](https://github.com/projectsveltos/addon-controller) the project on GitHub! This will help other people find it and learn more about it.
