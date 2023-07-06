@@ -104,6 +104,7 @@ We love to hear from our community!
 
 * <img src="https://github.com/projectsveltos/.github/blob/main/docs/slack_logo.png" alt="Slack" width="25" /> [Slack](https://projectsveltos.slack.com/)
 * <img src="https://github.com/projectsveltos/.github/blob/main/docs/email_logo.png" alt="Email" width="25" /> [Email](mailto:hello@projectsveltos.io)
+* <img src="https://github.com/projectsveltos/.github/blob/main/docs/twitter_logo.png" alt="Twitter" width="25" /> [Twitter](https://twitter.com/projectsveltos)
 
 ## License
 
