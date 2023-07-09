@@ -22,8 +22,8 @@ Sveltos Kubernetes add-on controller simplifies the deployment and management of
 * Automatic rollbacks
 * Create [templates](https://projectsveltos.github.io/sveltos/template/) to express add-ons
 * Use templates to instantiate add-ons from management cluster values
-* [Addon Constraints](https://projectsveltos.github.io/sveltos/addon_constraint/)
-* Enforce constraints when deploying add-ons
+* [Addon Compliance](https://projectsveltos.github.io/sveltos/addon_compliance/)
+* Enforce compliance policies when deploying add-ons
 * Deploy add-ons in response to events
 * Define events in [Lua scripts](https://github.com/projectsveltos/sveltos/blob/main/docs/addon_event_deployment.md#event-definition)
 * Framework for [cross-cluster configuration](https://projectsveltos.github.io/sveltos/addon_event_deployment/#cross-clusters)
