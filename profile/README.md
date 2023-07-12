@@ -32,6 +32,7 @@ Sveltos Kubernetes add-on controller simplifies the deployment and management of
 * [Multi-tenancy](https://projectsveltos.github.io/sveltos/multi-tenancy/): platform admin can easily grant permissions to tenant admins and have Sveltos enforces those;
 * [Techsupport](https://projectsveltos.github.io/sveltos/techsupport/): collect tech support from managed clusters;
 * [Snapshot and rollback](https://projectsveltos.github.io/sveltos/snapshot/): freeze your policy configurations in time, compare changes between snapshots, and roll back or forward to any saved snapshot.
+* Sveltos can gather information from all or subsets of the clusters it manages. This information can then be accessed and displayed using [Sveltos' CLI](https://projectsveltos.github.io/sveltos/show_resources/) in the management cluster.
 
 ## Add-ons deployment
 
@@ -73,6 +74,12 @@ Classifier currently supports the following classification criterias:
 2. Kubernetes resources
    
 ![Kubernetes cluster classification](https://github.com/projectsveltos/sveltos/blob/main/docs/assets/classifier.gif)
+
+## Visualize managed cluster resources from central location
+
+Sveltos now offers the ability to gather information from all or subsets of the clusters it manages. This information can then be accessed and displayed using Sveltos' CLI in the management cluster.
+
+![Sveltosctl show resources](https://github.com/projectsveltos/sveltos/blob/main/docs/assets/show_resources.png)
 
 ## Getting Started
 
