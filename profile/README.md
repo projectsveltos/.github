@@ -15,27 +15,23 @@ Sveltos Kubernetes add-on controller simplifies the deployment and management of
 
 ## Features
 
-* Deploy Kubernetes [add-ons](https://projectsveltos.github.io/sveltos/addons/) across multiple clusters
+* Deploy and manage Kubernetes [add-ons](https://projectsveltos.github.io/sveltos/addons/) across multiple clusters. 
 * ProjectsVeltos has native support for ClusterAPI powered clusters, and can also easily manage any other cluster, such as EKS, GKE, on-prem clusters, etc 
 * Support for Helm charts, Kustomize, YAML, [Carvel ytt](https://projectsveltos.github.io/sveltos/ytt_extension/) and [Jsonnet](https://projectsveltos.github.io/sveltos/jsonnet_extension/)
+* Addons can be represented as [templates](https://projectsveltos.github.io/sveltos/template/) and instantiated using values from management cluster resources. Sveltos can fetch any resource in the management cluster provided that the appropriate RBAC permissions are granted;
 * Configurable deployment strategies
-* Automatic rollbacks
-* Create [templates](https://projectsveltos.github.io/sveltos/template/) to express add-ons
-* Use templates to instantiate add-ons from management cluster values
-* [Addon Compliance](https://projectsveltos.github.io/sveltos/addon_compliance/)
-* Enforce compliance policies when deploying add-ons
-* Deploy add-ons in response to events
-* Define events in [Lua scripts](https://github.com/projectsveltos/sveltos/blob/main/docs/addon_event_deployment.md#event-definition)
-* Framework for [cross-cluster configuration](https://projectsveltos.github.io/sveltos/addon_event_deployment/#cross-clusters)
-
+* [Addon Compliance](https://projectsveltos.github.io/sveltos/addon_compliance/): OpenAPI and Lua can be utilized to define custom add-on compliance policies. When deploying add-ons with Sveltos, these policies will be enforced by Sveltos to ensure compliance;
+* [Event driven framework](https://github.com/projectsveltos/sveltos/blob/main/docs/addon_event_deployment.md#event-definition) to deploy add-ons as response to events in managed clusters. Event can be defined in the form of Lua script;
+* Sveltos' event driven framework can also be configured for [cross-cluster configuration](https://projectsveltos.github.io/sveltos/addon_event_deployment/#cross-clusters);
+  
 ## Other Features
 * [Configuration drift detection](https://projectsveltos.github.io/sveltos/configuration_drift/)
-* [Dry run](https://projectsveltos.github.io/sveltos/dryrun/)
-* [Notifications](https://projectsveltos.github.io/sveltos/notifications)
-* Kubernetes [cluster classification](https://projectsveltos.github.io/sveltos/labels_management/)
-* [Multi-tenancy](https://projectsveltos.github.io/sveltos/multi-tenancy/)
-* [Techsupport](https://projectsveltos.github.io/sveltos/techsupport/)
-* [Snapshot and rollback](https://projectsveltos.github.io/sveltos/snapshot/)
+* [Dry run](https://projectsveltos.github.io/sveltos/dryrun/) to preview effect of a change;
+* [Notifications](https://projectsveltos.github.io/sveltos/notifications): Sveltos can be configured to send notifications (Kubernetes event and Slack, Webex messages) when for instance all add-ons are deployed in a cluster;
+* Kubernetes [cluster classification](https://projectsveltos.github.io/sveltos/labels_management/): Sveltos can classify a cluster based on its runtime state;
+* [Multi-tenancy](https://projectsveltos.github.io/sveltos/multi-tenancy/): platform admin can easily grant permissions to tenant admins and have Sveltos enforces those;
+* [Techsupport](https://projectsveltos.github.io/sveltos/techsupport/): collect tech support from managed clusters;
+* [Snapshot and rollback](https://projectsveltos.github.io/sveltos/snapshot/): freeze your policy configurations in time, compare changes between snapshots, and roll back or forward to any saved snapshot.
 
 ## Add-ons deployment
 
