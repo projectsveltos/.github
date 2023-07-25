@@ -81,6 +81,12 @@ Sveltos now offers the ability to gather information from all or subsets of the 
 
 ![Sveltosctl show resources](https://github.com/projectsveltos/sveltos/blob/main/docs/assets/show_resources.png)
 
+## External Secret Management
+
+The integration of External Secret Operator and Sveltos provides a powerful solution for secret management. External Secret Operator fetches secrets from external APIs and creates Kubernetes secrets, while Sveltos efficiently distributes these fetched secrets to the managed clusters. In case of any changes to the secrets in the external API, External Secret Operator updates the secrets in the management cluster, and Sveltos ensures the reconciliation of state in each managed cluster where the secret was distributed.
+
+![Extrnal Secrets Operator and Sveltos integration](https://github.com/projectsveltos/sveltos/blob/main/docs/assets/external_secret.gif)
+
 ## Getting Started
 
 * [Install Sveltos](https://projectsveltos.github.io/sveltos/install/)
