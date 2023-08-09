@@ -15,17 +15,18 @@ Sveltos Kubernetes add-on controller simplifies the deployment and management of
 
 ## Features
 
-* Deploy and manage Kubernetes [add-ons](https://projectsveltos.github.io/sveltos/addons/) across multiple clusters. 
-* Projectsveltos has native support for ClusterAPI powered clusters, and can also easily manage any other cluster, such as EKS, GKE, on-prem clusters, etc 
-* Support for Helm charts, Kustomize, YAML, [Carvel ytt](https://projectsveltos.github.io/sveltos/ytt_extension/) and [Jsonnet](https://projectsveltos.github.io/sveltos/jsonnet_extension/)
+* Deploy and manage Kubernetes [add-ons](https://projectsveltos.github.io/sveltos/addons/) across multiple clusters; 
+* Projectsveltos has native support for ClusterAPI powered clusters, and can also easily manage any other cluster, such as EKS, GKE, on-prem clusters, etc;
+* Support for Helm charts, Kustomize, YAML, [Carvel ytt](https://projectsveltos.github.io/sveltos/ytt_extension/) and [Jsonnet](https://projectsveltos.github.io/sveltos/jsonnet_extension/);
 * Addons can be represented as [templates](https://projectsveltos.github.io/sveltos/template/) and instantiated using values from management cluster resources. Sveltos can fetch any resource in the management cluster provided that the appropriate RBAC permissions are granted;
-* Configurable deployment strategies
+* Configurable deployment strategies;
 * [Addon Compliance](https://projectsveltos.github.io/sveltos/addon_compliance/): OpenAPI and Lua can be utilized to define custom add-on compliance policies. When deploying add-ons with Sveltos, these policies will be enforced by Sveltos to ensure compliance;
 * [Event driven framework](https://projectsveltos.github.io/sveltos/addon_event_deployment/) to deploy add-ons as response to events in managed clusters. Event can be defined in the form of Lua script;
-* Sveltos' event driven framework can also be configured for [cross-cluster configuration](https://projectsveltos.github.io/sveltos/addon_event_deployment/#cross-clusters);
+* Sveltos' event driven framework can also be configured for [cross-cluster configuration];(https://projectsveltos.github.io/sveltos/addon_event_deployment/#cross-clusters);
+* Automatic [rolling upgrade](https://projectsveltos.github.io/sveltos/rolling_upgrade/) for Deployments, StatefulSets and DaemonSet. 
   
 ## Other Features
-* [Configuration drift detection](https://projectsveltos.github.io/sveltos/configuration_drift/)
+* [Configuration drift detection](https://projectsveltos.github.io/sveltos/configuration_drift/);
 * [Dry run](https://projectsveltos.github.io/sveltos/dryrun/) to preview effect of a change;
 * [Notifications](https://projectsveltos.github.io/sveltos/notifications): Sveltos can be configured to send notifications (Kubernetes event and Slack, Webex messages) when for instance all add-ons are deployed in a cluster;
 * Kubernetes [cluster classification](https://projectsveltos.github.io/sveltos/labels_management/): Sveltos can classify a cluster based on its runtime state;
