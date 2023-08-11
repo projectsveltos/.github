@@ -86,7 +86,13 @@ Sveltos now offers the ability to gather information from all or subsets of the 
 
 The integration of External Secret Operator and Sveltos provides a powerful solution for secret management. External Secret Operator fetches secrets from external APIs and creates Kubernetes secrets, while Sveltos efficiently distributes these fetched secrets to the managed clusters. In case of any changes to the secrets in the external API, External Secret Operator updates the secrets in the management cluster, and Sveltos ensures the reconciliation of state in each managed cluster where the secret was distributed.
 
-![Extrnal Secrets Operator and Sveltos integration](https://github.com/projectsveltos/sveltos/blob/main/docs/assets/external_secret.gif)
+![External Secrets Operator and Sveltos integration](https://github.com/projectsveltos/sveltos/blob/main/docs/assets/external_secret.gif)
+
+## Automatic Rolling Upgrades
+
+Sveltos has the capability to monitor changes within ConfigMap and Secret resources and facilitate rolling upgrades for Deployments, StatefulSets, and DaemonSets. This functionality can be activated by simply setting the reloader field to true in the ClusterProfile.
+
+![Projectsveltos: Rolling Upgrades](https://github.com/projectsveltos/sveltos/blob/main/docs/assets/rolling_upgrades.gif)
 
 ## Getting Started
 
