@@ -101,8 +101,9 @@ Sveltos has the capability to monitor changes within ConfigMap and Secret resour
 
 ## Documentation
 
-* [Full documentation](https://projectsveltos.github.io/sveltos/)
-* [Quickstart guide](https://projectsveltos.github.io/sveltos/quick_start/)
+* [Complete documentation](https://projectsveltos.github.io/sveltos/)
+* [Quickstart](https://projectsveltos.github.io/sveltos/quick_start/) for trying out Projectsveltos with a test cluster
+* [Concrete examples](https://projectsveltos.github.io/sveltos/quick_start/) for understanding how Projectsveltos works
 
 ## Branching model
 
