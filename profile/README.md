@@ -23,7 +23,8 @@ Sveltos Kubernetes add-on controller simplifies the deployment and management of
 * [Addon Compliance](https://projectsveltos.github.io/sveltos/addon_compliance/): OpenAPI and Lua can be utilized to define custom add-on compliance policies. When deploying add-ons with Sveltos, these policies will be enforced by Sveltos to ensure compliance;
 * [Event driven framework](https://projectsveltos.github.io/sveltos/addon_event_deployment/) to deploy add-ons as response to events in managed clusters. Event can be defined in the form of Lua script;
 * Sveltos' event driven framework can also be configured for [cross-cluster configuration];(https://projectsveltos.github.io/sveltos/addon_event_deployment/#cross-clusters);
-* Automatic [rolling upgrade](https://projectsveltos.github.io/sveltos/rolling_upgrade/) for Deployments, StatefulSets and DaemonSet. 
+* Automatic [rolling upgrade](https://projectsveltos.github.io/sveltos/rolling_upgrade/) for Deployments, StatefulSets and DaemonSet;
+* [Deploy Kubernetes Resources in a Controlled and Orderly Manner](https://projectsveltos.github.io/sveltos/manifest_order) 
   
 ## Other Features
 * [Configuration drift detection](https://projectsveltos.github.io/sveltos/configuration_drift/);
