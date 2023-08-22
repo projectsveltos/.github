@@ -51,8 +51,16 @@ Sveltos Kubernetes add-on controller simplifies the deployment and management of
 
 ## Event driven framework
 
-Sveltos supports defining an event using Lua. Sveltos can be instructed to deploy add-ons when an event happens in any of the managed cluster.
-In this example an event is defined as creation/deletion of a Service instance in certain managed cluster. When an instance of such event happens, Sveltos is instructed to create a NetworkPolicy opening traffic to that service.
+Sveltos supports defining an event using Lua. An event is a notification that is sent when a certain condition is met. For example, you could create an event that is sent when the PostgreSQL deployment becomes healthy. Events can then be used to trigger the deployment of other resources. For example, you could configure Sveltos to deploy the Job that creates the table in the database when it receives an event that the PostgreSQL deployment is healthy.
+In this example Sveltos has been instructed to:
+
+1️⃣ Deploy postgresql deployment and service\
+2️⃣ Wait for postgresql deployment to be ready\
+3️⃣ Deploy a Job that creates a table in the DB\
+4️⃣ Wait for Job to be completed\
+5️⃣ Deploy todo-app which can access PostgreSQL deployment\
+6️⃣ Wait for todo-app to be healthy\
+7️⃣ Deploy a Job that adds an entry to database via todo-app\
 
 ![Event driven framework](https://github.com/projectsveltos/sveltos/raw/main/docs/assets/sveltos_resource_order.gif)
 
