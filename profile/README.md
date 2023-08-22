@@ -54,7 +54,7 @@ Sveltos Kubernetes add-on controller simplifies the deployment and management of
 Sveltos supports defining an event using Lua. Sveltos can be instructed to deploy add-ons when an event happens in any of the managed cluster.
 In this example an event is defined as creation/deletion of a Service instance in certain managed cluster. When an instance of such event happens, Sveltos is instructed to create a NetworkPolicy opening traffic to that service.
 
-![Event driven framework](https://github.com/projectsveltos/demos/blob/main/event-driven/event_driven_framework.gif)
+![Event driven framework](https://github.com/projectsveltos/sveltos/raw/main/docs/assets/sveltos_resource_order.gif)
 
 ## Event driven framework: cross cluster configuration
 
