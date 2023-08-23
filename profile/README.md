@@ -60,7 +60,7 @@ In this example Sveltos has been instructed to:
 4️⃣ Wait for Job to be completed\
 5️⃣ Deploy todo-app which can access PostgreSQL deployment\
 6️⃣ Wait for todo-app to be healthy\
-7️⃣ Deploy a Job that adds an entry to database via todo-app\
+7️⃣ Deploy a Job that adds an entry to database via todo-app
 
 ![Event driven framework](https://github.com/projectsveltos/sveltos/raw/main/docs/assets/sveltos_resource_order.gif)
 
