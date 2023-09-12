@@ -70,6 +70,12 @@ With Sveltos' event-driven framework, your add-ons will be automatically deploye
 
 ![Event driven framework](https://github.com/projectsveltos/sveltos/raw/main/docs/assets/event_based_cross_cluster.gif)
 
+## Coordinate with Crossplane and other open source projects
+Sveltos can also create resources in the management cluster itself. This allows Sveltos to coordinate with other open source projects
+before deploying add-ons in the managed cluster.
+
+![ClusterAPI, Sveltos and Crossplane](https://github.com/projectsveltos/sveltos/raw/main/docs/assets/sveltos_clusterapi_crossplane.gif)
+
 ## Configuration Drift Detection
 Sveltos can automatically detect drift detection between the desired state, defined in the management cluster, and actual state of your clusters and recover from it.
 
