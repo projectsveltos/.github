@@ -19,6 +19,10 @@ This enables you to use the same add-on configuration across all of your cluster
 
 Sveltos also has an event-driven framework that allows you to deploy add-ons and applications in an orderly manner, or to deploy add-ons in response to certain events.
 
+With its sharding strategy, Sveltos can manage hundreds of managed clusters and applications by distributing the load across multiple instances of Sveltos controllers. To achieve this, add the annotation sharding.projectsveltos.io/key to managed clusters.
+
+![Sveltos sharding](https://github.com/projectsveltos/sveltos/blob/main/docs/assets/sharding.gif)
+
 If you like Sveltos, please [star](https://github.com/projectsveltos/addon-controller) [:star:](https://github.com/projectsveltos/addon-controller) the project on GitHub! This will help other people find it and learn more about it.
 
 ## Features
