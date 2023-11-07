@@ -96,6 +96,12 @@ Sveltos can automatically detect drift between the desired state, defined in the
 
 ![Configuration drift recovery](https://github.com/projectsveltos/demos/blob/main/configuration_drift/reconcile_configuration_drift.gif)
 
+## Automatic Rolling Upgrades
+
+Sveltos has the capability to monitor changes within ConfigMap and Secret resources and facilitate rolling upgrades for Deployments, StatefulSets, and DaemonSets. This functionality can be activated by simply setting the reloader field to true in the ClusterProfile.
+
+![Projectsveltos: Rolling Upgrades](https://github.com/projectsveltos/sveltos/blob/main/docs/assets/rolling_upgrades.gif)
+
 ## Cluster classification
 
 Sveltos Classifier is an optional component used to dynamically classify a cluster based on its runtime configuration (Kubernetes version, deployed resources, and more).
@@ -106,6 +112,12 @@ Classifier currently supports the following criteria:
 2. Kubernetes resources
 
 ![Kubernetes cluster classification](https://github.com/projectsveltos/sveltos/blob/main/docs/assets/classifier.gif)
+
+## Observability
+Sveltos can monitor the healths of resources in managed clusters and send notifications when something happens. For instance detect Pod instances in crashloopbackoff and send a Slack notification.
+
+![Detect Pods in crashloopbackoff](https://github.com/projectsveltos/sveltos/blob/main/docs/assets/notification.gif)
+
 
 ## Visualize managed cluster resources from central location
 
@@ -118,12 +130,6 @@ Sveltos now offers the ability to gather information from all or subsets of the 
 The integration of External Secret Operator and Sveltos provides a powerful solution for secret management. External Secret Operator fetches secrets from external APIs and creates Kubernetes secrets, while Sveltos efficiently distributes these fetched secrets to the managed clusters. In case of any changes to the secrets in the external API, External Secret Operator updates the secrets in the management cluster, and Sveltos ensures the reconciliation of state in each managed cluster where the secret was distributed.
 
 ![External Secrets Operator and Sveltos integration](https://github.com/projectsveltos/sveltos/blob/main/docs/assets/external_secret.gif)
-
-## Automatic Rolling Upgrades
-
-Sveltos has the capability to monitor changes within ConfigMap and Secret resources and facilitate rolling upgrades for Deployments, StatefulSets, and DaemonSets. This functionality can be activated by simply setting the reloader field to true in the ClusterProfile.
-
-![Projectsveltos: Rolling Upgrades](https://github.com/projectsveltos/sveltos/blob/main/docs/assets/rolling_upgrades.gif)
 
 ## Getting Started
 
