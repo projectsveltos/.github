@@ -11,7 +11,7 @@ Sveltos is a Kubernetes add-on controller that simplifies the deployment and man
 
 <p align="center">
   <img alt="Sveltos Kubernetes add-ons management across clusters" src="https://projectsveltos.github.io/sveltos/assets/multi-clusters.png" width="600"/>
- </p>
+</p>
 
 Sveltos allows you to represent add-ons and applications as templates. Before deploying to managed clusters, Sveltos instantiates these templates. Sveltos can gather the information required to instantiate the templates from either the management cluster or the managed clusters themselves.
 
@@ -23,7 +23,7 @@ With its sharding strategy, Sveltos can manage hundreds of managed clusters and 
 
 <p align="center">
   <img alt="Sveltos sharding" src="https://github.com/projectsveltos/sveltos/blob/main/docs/assets/sharding.gif" width="600"/>
- </p>
+</p>
 
 
 If you like Sveltos, please [star](https://github.com/projectsveltos/addon-controller) [:star:](https://github.com/projectsveltos/addon-controller) the project on GitHub! This will help other people find it and learn more about it.
@@ -57,13 +57,17 @@ If you like Sveltos, please [star](https://github.com/projectsveltos/addon-contr
 1. from the management cluster, selects one or more `clusters` with a Kubernetes [label selector](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors);
 2. lists which Kubernetes add-ons need to be deployed on such clusters.
 
-![Kubernetes add-on deployment](https://github.com/projectsveltos/sveltos/blob/main/docs/assets/addons_deployment.gif)
+<p align="center">
+  <img alt="Kubernetes add-on deployment" src="https://github.com/projectsveltos/sveltos/blob/main/docs/assets/addons_deployment.gif" width="600"/>
+</p>
 
 ## Add-on compliance
 
 Use OpenAPI or Lua to define configuration add-on compliance. Let Sveltos enforce them.
 
-![Event driven framework](https://github.com/projectsveltos/sveltos/raw/main/docs/assets/addon_compliance.gif)
+<p align="center">
+  <img alt="Addon compliance" src="https://github.com/projectsveltos/sveltos/raw/main/docs/assets/addon_compliance.gif" width="600"/>
+</p>
 
 ## Event driven framework
 
@@ -78,32 +82,43 @@ In this example Sveltos has been instructed to:
 6️⃣ Wait for todo-app to be healthy\
 7️⃣ Deploy a Job that adds an entry to database via todo-app
 
-![Event driven framework](https://github.com/projectsveltos/sveltos/raw/main/docs/assets/sveltos_resource_order.gif)
+<p align="center">
+  <img alt="Event driven framework" src="https://github.com/projectsveltos/sveltos/raw/main/docs/assets/sveltos_resource_order.gif" width="600"/>
+</p>
 
 ## Event driven framework: cross cluster configuration
 
 With Sveltos' event-driven framework, your add-ons will be automatically deployed to the same cluster where the event is detected, allowing for quick and easy deployment. But that's not all - Sveltos can also be configured cross-cluster, so you can watch for events in one cluster and deploy add-ons to a set of different clusters. With Sveltos, managing add-ons in Kubernetes has never been easier!
 
-![Event driven framework](https://github.com/projectsveltos/sveltos/raw/main/docs/assets/event_based_cross_cluster.gif)
+<p align="center">
+  <img alt="Event driven framework" src="https://github.com/projectsveltos/sveltos/raw/main/docs/assets/event_based_cross_cluster.gif" width="600"/>
+</p>
+
 
 ## Coordinate with Crossplane and other open source projects
 
 Sveltos can also create resources in the management cluster itself. This allows Sveltos to coordinate with other open source projects
 before deploying add-ons in the managed cluster.
 
-![ClusterAPI, Sveltos and Crossplane](https://github.com/projectsveltos/sveltos/raw/main/docs/assets/sveltos_clusterapi_crossplane.gif)
+<p align="center">
+  <img alt="ClusterAPI, Sveltos and Crossplane" src="https://github.com/projectsveltos/sveltos/raw/main/docs/assets/sveltos_clusterapi_crossplane.gif" width="600"/>
+</p>
 
 ## Configuration Drift Detection
 
 Sveltos can automatically detect drift between the desired state, defined in the management cluster, and actual state of your clusters and recover from it.
 
-![Configuration drift recovery](https://github.com/projectsveltos/demos/blob/main/configuration_drift/reconcile_configuration_drift.gif)
+<p align="center">
+  <img alt="Configuration drift recovery" src="https://github.com/projectsveltos/demos/blob/main/configuration_drift/reconcile_configuration_drift.gif" width="600"/>
+</p>
 
 ## Automatic Rolling Upgrades
 
 Sveltos has the capability to monitor changes within ConfigMap and Secret resources and facilitate rolling upgrades for Deployments, StatefulSets, and DaemonSets. This functionality can be activated by simply setting the reloader field to true in the ClusterProfile.
 
-![Projectsveltos: Rolling Upgrades](https://github.com/projectsveltos/sveltos/blob/main/docs/assets/rolling_upgrades.gif)
+<p align="center">
+  <img alt="Projectsveltos: Rolling Upgrades" src="https://github.com/projectsveltos/sveltos/blob/main/docs/assets/rolling_upgrades.gif" width="600"/>
+</p>
 
 ## Cluster classification
 
@@ -114,13 +129,16 @@ Classifier currently supports the following criteria:
 1. Kubernetes version
 2. Kubernetes resources
 
-![Kubernetes cluster classification](https://github.com/projectsveltos/sveltos/blob/main/docs/assets/classifier.gif)
+<p align="center">
+  <img alt="Kubernetes cluster classification" src="https://github.com/projectsveltos/sveltos/blob/main/docs/assets/classifier.gif" width="600"/>
+</p>
 
 ## Observability
 Sveltos can monitor the healths of resources in managed clusters and send notifications when something happens. For instance detect Pod instances in crashloopbackoff and send a Slack notification.
 
-![Detect Pods in crashloopbackoff](https://github.com/projectsveltos/sveltos/blob/main/docs/assets/notification.gif)
-
+<p align="center">
+  <img alt="Detect Pods in crashloopbackoff" src="https://github.com/projectsveltos/sveltos/blob/main/docs/assets/notification.gif" width="600"/>
+</p>
 
 ## Visualize managed cluster resources from central location
 
@@ -132,7 +150,10 @@ Sveltos now offers the ability to gather information from all or subsets of the 
 
 The integration of External Secret Operator and Sveltos provides a powerful solution for secret management. External Secret Operator fetches secrets from external APIs and creates Kubernetes secrets, while Sveltos efficiently distributes these fetched secrets to the managed clusters. In case of any changes to the secrets in the external API, External Secret Operator updates the secrets in the management cluster, and Sveltos ensures the reconciliation of state in each managed cluster where the secret was distributed.
 
-![External Secrets Operator and Sveltos integration](https://github.com/projectsveltos/sveltos/blob/main/docs/assets/external_secret.gif)
+<p align="center">
+  <img alt="External Secrets Operator and Sveltos integration" src="https://github.com/projectsveltos/sveltos/blob/main/docs/assets/external_secret.gif" width="600"/>
+</p>
+
 
 ## Getting Started
 
