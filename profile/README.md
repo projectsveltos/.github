@@ -31,7 +31,8 @@ If you like Sveltos, please [star](https://github.com/projectsveltos/addon-contr
 ## Add-ons deployment
 
 1. from the management cluster, selects one or more `clusters` with a Kubernetes [label selector](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors);
-2. lists which Kubernetes add-ons need to be deployed on such clusters.
+2. lists which Kubernetes add-ons need to be deployed on such clusters;
+3. add-ons can be expressed as templates and instantiated by Sveltos at deployment time using resources from the management cluster.
 
 <p align="center">
   <img alt="Kubernetes add-on deployment" src="https://github.com/projectsveltos/sveltos/blob/main/docs/assets/addons_deployment.gif" width="600"/>
