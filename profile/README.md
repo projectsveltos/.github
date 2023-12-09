@@ -24,7 +24,7 @@ With its sharding strategy, Sveltos can manage hundreds of managed clusters and 
 </p>
 
 
-If you like Sveltos, please [star](https://github.com/projectsveltos/addon-controller) [:star:](https://github.com/projectsveltos/addon-controller) the project on GitHub! This will help other people find it and learn more about it.
+👉 If you like Sveltos or to get updates, [⭐️ star](https://github.com/projectsveltos/addon-controller/stargazers) Sveltos.
 
 ## Add-ons deployment
 
