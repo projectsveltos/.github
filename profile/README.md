@@ -37,12 +37,12 @@ Projectsveltos offers two powerful tools for managing cluster configurations: **
 **Use Cases:**
 
 1. ClusterProfiles:
-  - Enforce standardized configurations across all clusters.
-  - Define global policies for networking, security, and resource allocation.
+    - Enforce standardized configurations across all clusters.
+    - Define global policies for networking, security, and resource allocation.
 
 2. Profiles:
-  - Tailor configurations for specific applications, services, or teams.
-  - Grant tenant admins granular control over their clusters.
+    - Tailor configurations for specific applications, services, or teams.
+    - Grant tenant admins granular control over their clusters.
 
 ## Add-ons deployment
 
