@@ -44,6 +44,10 @@ Projectsveltos offers two powerful tools for managing cluster configurations: **
     - Tailor configurations for specific applications, services, or teams.
     - Grant tenant admins granular control over their clusters.
 
+<p align="center">
+  <img alt="Sveltos Profile vs ClusterProfile" src="https://projectsveltos.github.io/sveltos/assets/profile_vs_clusterprofile.png" width="600"/>
+</p>
+
 ## Add-ons deployment
 
 1. from the management cluster, selects one or more `clusters` with a Kubernetes [label selector](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors);
