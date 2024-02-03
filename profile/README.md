@@ -58,6 +58,17 @@ Projectsveltos offers two powerful tools for managing cluster configurations: **
   <img alt="Kubernetes add-on deployment" src="https://github.com/projectsveltos/sveltos/blob/main/docs/assets/addons_deployment.gif" width="600"/>
 </p>
 
+## Different SyncMode
+
+- *OneTime*: This mode is designed for bootstrapping critical components during the initial cluster setup. Think of it as a one-shot configuration injection:
+    1. Deploying essential infrastructure components like CNI plugins, cloud controllers, or the workload cluster's package manager itself;
+    2. Simplifies initial cluster setup;
+    3. Hands over management to the workload cluster's own tools, promoting modularity and potentially simplifying ongoing maintenance. 
+- *Continuous*: This mode continuously monitors ClusterProfiles or Profiles for changes and automatically applies them to matching clusters. It ensures ongoing consistency between your desired configuration and the actual cluster state: 
+    1. Centralized control over deployments across multiple clusters for consistency and compliance;
+    2. Simplifies management of configurations across multiple clusters.
+- *ContinuousWithDriftDetection*: Detects and automatically corrects configuration drifts in managed clusters, ensuring they remain aligned with the desired state defined in the management cluster.
+
 ## Configuration Drift Detection
 
 Sveltos can automatically detect drift between the desired state, defined in the management cluster, and actual state of your clusters and recover from it.
