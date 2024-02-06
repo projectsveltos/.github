@@ -17,24 +17,16 @@ Sveltos allows you to represent add-ons and applications as templates. Before de
 
 Sveltos provides precise control over add-on deployment order. Add-ons within a Profile/ClusterProfile are deployed in the exact order they appear, ensuring a predictable and controlled rollout. Furthermore, ClusterProfiles can depend on others, guaranteeing that dependent add-ons only deploy after their dependencies are fully operational. Finally Sveltos' event-driven framework offers additional flexibility. This framework allows for deploying add-ons and applications in response to specific events, enabling dynamic and adaptable deployments based on your needs.
 
-With its sharding strategy, Sveltos can manage hundreds of managed clusters and applications by distributing the load across multiple instances of Sveltos controllers. To achieve this, add the annotation sharding.projectsveltos.io/key to managed clusters.
-
-<p align="center">
-  <img alt="Sveltos sharding" src="https://github.com/projectsveltos/sveltos/blob/main/docs/assets/sharding.gif" width="600"/>
-</p>
-
 👉 If you like Sveltos or to get updates, [⭐️ star](https://github.com/projectsveltos/addon-controller/stargazers) Sveltos.
 
 ## Cluster Management: Profiles vs. ClusterProfiles
 
-Projectsveltos offers two powerful tools for managing cluster configurations: **Profiles** and **ClusterProfiles**. Understanding their distinctions is crucial for efficient setup and administration.
-
-**Scope and Visibility:**
+Projectsveltos offers two powerful tools for managing cluster configurations: **Profiles** and **ClusterProfiles**:
 
 1. ClusterProfiles: Apply across all clusters in any namespace. Ideal for platform admins maintaining global consistency and managing settings like networking, security, and resource allocation.
 2. Profiles: Limited to a specific namespace, granting granular control to tenant admins. This isolation ensures teams manage, from the management cluster, their managed clusters independently without impacting others.
 
-**Use Cases:**
+### Use Cases:
 
 1. ClusterProfiles:
     - Enforce standardized configurations across all clusters.
@@ -172,6 +164,15 @@ Sveltos now offers the ability to gather information from all or subsets of the 
 <p align="center">
   <img alt="Sveltosctl show resources" src="https://github.com/projectsveltos/sveltos/blob/main/docs/assets/show_resources.png" width="600"/>
 </p>
+
+## Horizontal Scaling
+
+With its sharding strategy, Sveltos can manage hundreds of managed clusters and applications by distributing the load across multiple instances of Sveltos controllers. To achieve this, add the annotation sharding.projectsveltos.io/key to managed clusters.
+
+<p align="center">
+  <img alt="Sveltos sharding" src="https://github.com/projectsveltos/sveltos/blob/main/docs/assets/sharding.gif" width="600"/>
+</p>
+
 
 ## Getting Started
 
