@@ -60,14 +60,40 @@ Projectsveltos offers two powerful tools for managing cluster configurations: **
 
 ## Different SyncMode
 
-- *OneTime*: This mode is designed for bootstrapping critical components during the initial cluster setup. Think of it as a one-shot configuration injection:
+1️⃣ *OneTime*: This mode is designed for bootstrapping critical components during the initial cluster setup. Think of it as a one-shot configuration injection:
     1. Deploying essential infrastructure components like CNI plugins, cloud controllers, or the workload cluster's package manager itself;
     2. Simplifies initial cluster setup;
-    3. Hands over management to the workload cluster's own tools, promoting modularity and potentially simplifying ongoing maintenance. 
-- *Continuous*: This mode continuously monitors ClusterProfiles or Profiles for changes and automatically applies them to matching clusters. It ensures ongoing consistency between your desired configuration and the actual cluster state: 
+    3. Hands over management to the workload cluster's own tools, promoting modularity and potentially simplifying ongoing maintenance.
+    
+2️⃣ *Continuous*: This mode continuously monitors ClusterProfiles or Profiles for changes and automatically applies them to matching clusters. It ensures ongoing consistency between your desired configuration and the actual cluster state: 
     1. Centralized control over deployments across multiple clusters for consistency and compliance;
     2. Simplifies management of configurations across multiple clusters.
-- *ContinuousWithDriftDetection*: Detects and automatically corrects configuration drifts in managed clusters, ensuring they remain aligned with the desired state defined in the management cluster.
+    
+3️⃣ *ContinuousWithDriftDetection*: Detects and automatically corrects configuration drifts in managed clusters, ensuring they remain aligned with the desired state defined in the management cluster.
+
+## Add-on rollout strategy
+With the rollout strategy defined in the ClusterProfile/Profile, users can control the upgrade behavior of the addon when there are changes in the supported configurations.
+
+For example, the add-on user updates the “kyverno” ClusterProfile and wants to apply the change to a “canary” decision group of clusters first. If all the add-on upgrade successfully, then upgrade the rest of clusters progressively per cluster at a rate of 30% (*__ maxUpdate: 30%__). The rollout strategy can be defined as follows:
+
+```yaml
+apiVersion: config.projectsveltos.io/v1alpha1
+kind: ClusterProfile
+metadata:
+  name: kyverno
+spec:
+  clusterSelector: env=fv
+  syncMode: Continuous
+  maxUpdate: 30%
+  helmCharts:
+  - repositoryURL:    https://kyverno.github.io/kyverno/
+    repositoryName:   kyverno
+    chartName:        kyverno/kyverno
+    chartVersion:     v3.0.1
+    releaseName:      kyverno-latest
+    releaseNamespace: kyverno
+    helmChartAction:  Install
+```
 
 ## Configuration Drift Detection
 
