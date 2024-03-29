@@ -150,6 +150,13 @@ Classifier currently supports the following criteria:
   <img alt="Kubernetes cluster classification" src="https://github.com/projectsveltos/sveltos/blob/main/docs/assets/classifier.gif" width="600"/>
 </p>
 
+## Cluster failover
+Sveltos offers cluster failover functionality within a multi-cluster Kubernetes orchestration environment. This means it helps ensure service continuity even if an individual Kubernetes cluster malfunctions.
+
+<p align="center">
+  <img alt="Kubernetes cluster failover" src="https://github.com/projectsveltos/sveltos/blob/main/docs/assets/clusterset.gif" width="600"/>
+</p>
+
 ## Observability
 Sveltos can monitor the healths of resources in managed clusters and send notifications when something happens. For instance detect Pod instances in crashloopbackoff and send a Slack notification.
 
