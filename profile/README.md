@@ -38,10 +38,27 @@ Key features of Sveltos include multitenancy, agent-based drift notification and
 * [Quickstart](https://projectsveltos.github.io/sveltos/getting_started/install/quick_start/)
 * [Install Sveltos](https://projectsveltos.github.io/sveltos/getting_started/install/install/)
 
-
 ## Documentation
 
 * [Complete documentation](https://projectsveltos.github.io/sveltos/)
+
+## See it in Action
+
+<p align="center">
+   <img alt="Kubernetes add-on deployment" src="https://github.com/projectsveltos/sveltos/blob/main/docs/assets/addons_deployment.gif" width="600"/>
+ </p>
+
+<p align="center">
+   <img alt="Configuration drift recovery" src="https://github.com/projectsveltos/demos/blob/main/configuration_drift/reconcile_configuration_drift.gif" width="600"/>
+ </p>
+
+<p align="center">
+   <img alt="External Secrets Operator and Sveltos integration" src="https://github.com/projectsveltos/sveltos/blob/main/docs/assets/external_secret.gif" width="600"/>
+ </p>
+
+<p align="center">
+   <img alt="Kubernetes cluster classification" src="https://github.com/projectsveltos/sveltos/blob/main/docs/assets/classifier.gif" width="600"/>
+ </p>
 
 ## Branching model
 
