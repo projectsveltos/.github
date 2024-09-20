@@ -24,6 +24,7 @@ Sveltos supports a variety of add-on formats, including **Helm charts**, raw **Y
 * **Orchestrated Deployment Order**: The Sveltos CDRs (Custom Resource Definition) are deployed in the exact order they appear in the definition file. That ensures a predictable and controlled deployment order.
 * **Multitenancy**: Sveltos was created with the multitenancy concept in mind.Sveltos `ClusterProfile` and `Profile` resources allow platform administrators to facilitate full isolation or tenants sharing a cluster.
 * **Events**: `Sveltos Event Framework` allows the deployment of add-ons and applications in response to specific events with the use of the [Lua](https://www.lua.org/) language. That allows dynamic and adaptable deployments based on different needs and use cases.
+* [**Managed Services**](https://projectsveltos.github.io/sveltos/events/managed-services/) 
 
 ## Why Sveltos?
 
