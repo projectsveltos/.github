@@ -43,6 +43,14 @@ Key features of Sveltos include multitenancy, agent-based drift notification and
 
 * [Complete documentation](https://projectsveltos.github.io/sveltos/)
 
+## Adopters
+
+See the list of [organizations](https://github.com/projectsveltos/adopters/blob/main/ADOPTERS.md) currently using Projectsveltos.
+
+
+🤗 **We encourage contributions!** If your organization uses Projectsveltos, consider adding it to the list. This helps build project momentum and demonstrates the growing community.
+
+
 ## See it in Action
 
 <p align="center">
