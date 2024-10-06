@@ -32,7 +32,7 @@ Sveltos was built to address the challenges posed by various CI/CD tools. Svelto
 
 Key features of Sveltos include multitenancy, agent-based drift notification and synchronisation, and resource optimisation. These features ensure **secure**, **reliable**, and **stable** deployments of Kubernetes add-ons and applications, while reducing operational costs in both on-prem and cloud environments.
 
-👉 If you like Sveltos or you want to get updates, [⭐️ star](https://github.com/projectsveltos/addon-controller/stargazers) the project.
+👉 If you find this project useful, consider giving it a [⭐️ star](https://github.com/projectsveltos/addon-controller/stargazers)! Your support helps bring more attention to the project, allowing us to enhance it even further.
 
 ## Getting Started
 
