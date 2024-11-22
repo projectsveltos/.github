@@ -71,7 +71,7 @@ See the list of [organizations](https://github.com/projectsveltos/adopters/blob/
  </p>
 
 <p align="center">
-   <img alt="Kubernetes cluster classification" src="https://github.com/projectsveltos/sveltos/blob/main/docs/assets/classifier.gif" width="600"/>
+   <img alt="DB as a Service" src="https://github.com/projectsveltos/sveltos/blob/main/docs/assets/sveltos-db-as-a-service.gif" width="600"/>
  </p>
 
 ## Branching model
