@@ -17,6 +17,8 @@ Sveltos supports a variety of add-on formats, including **Helm charts**, raw **Y
   <img alt="Sveltos Kubernetes add-ons management across clusters" src="https://projectsveltos.github.io/sveltos/assets/multi-clusters.png" width="600"/>
 </p>
 
+Sveltos motto: **"adding a new cluster with the right labels automatically brings everything to the desired state."**
+
 ## Features
 
 * **Observability**: Sveltos offers different endpoints for notifications. The notifications can be used by other tools to perform additional actions or trigger workflows. The supported types are Slack, Teams, Discord, WebEx, and Kubernetes events.
