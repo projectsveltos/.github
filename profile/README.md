@@ -60,6 +60,8 @@ See the list of [organizations](https://github.com/projectsveltos/adopters/blob/
 
 ## See it in Action
 
+[![Sveltos introduction](https://img.youtube.com/vi/bsWEo79w09c/0.jpg)](https://www.youtube.com/watch?v=bsWEo79w09c)
+
 <p align="center">
    <img alt="Kubernetes add-on deployment" src="https://github.com/projectsveltos/sveltos/blob/main/docs/assets/addons_deployment.gif" width="600"/>
  </p>
