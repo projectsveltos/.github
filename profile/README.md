@@ -64,6 +64,8 @@ See the list of [organizations](https://github.com/projectsveltos/adopters/blob/
 
 [![Sveltos event framework](https://img.youtube.com/vi/4mOWuOF0gWY/0.jpg)](https://www.youtube.com/watch?v=4mOWuOF0gWY)
 
+[![Sveltos event framework](https://img.youtube.com/vi/GQM7Qn9rWVU/0.jpg)](https://www.youtube.com/watch?v=GQM7Qn9rWVU)
+
 <p align="center">
    <img alt="Kubernetes add-on deployment" src="https://github.com/projectsveltos/sveltos/blob/main/docs/assets/addons_deployment.gif" width="600"/>
  </p>
