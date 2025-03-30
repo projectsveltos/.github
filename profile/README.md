@@ -47,8 +47,7 @@ Key features of Sveltos include multitenancy, agent-based drift notification and
 
 ## Dashboard
 
-[![Sveltos Dashboard](https://img.youtube.com/vi/GspTTGAmQwk/0.jpg)](https://www.youtube.com/watch?v=GspTTGAmQwk)
-
+[![Sveltos Dashboard](https://img.youtube.com/vi/FjFtvrG8LWQ/0.jpg)](https://www.youtube.com/watch?v=FjFtvrG8LWQ)
 
 ## Adopters
 
