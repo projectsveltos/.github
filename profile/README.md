@@ -98,7 +98,9 @@ We love to hear from our community!
 * <img src="https://github.com/projectsveltos/.github/blob/main/docs/slack_logo.png" alt="Slack" width="25" /> [Slack](https://join.slack.com/t/projectsveltos/shared_invite/zt-1hraownbr-W8NTs6LTimxLPB8Erj8Q6Q)
 * <img src="https://github.com/projectsveltos/.github/blob/main/docs/email_logo.png" alt="Email" width="25" /> [Email](mailto:support@projectsveltos.io)
 * <img src="https://github.com/projectsveltos/.github/blob/main/docs/twitter_logo.png" alt="X" width="25" /> [X](https://x.com/projectsveltos)
-* <img src="https://github.com/projectsveltos/.github/blob/main/docs/book_consultation.png" alt="Book a consultation" width="25" /> [Book a consultation](https://cal.com/gianluca-mardente-xqepwq)
+
+## **Enterprise Offering**
+Interested in our enterprise offering? [Enterprise offering](https://sveltos.projectsveltos.io/#pricing)
 
 ## License
 
