@@ -1,7 +1,0 @@
-# ~/.gitconfig
-
-[includeIf "gitdir/i:~/go/src/github/ciroos/"]
-    path = ~/.gitconfig-work
-
-[include]
-    path = ~/.gitconfig-personal
