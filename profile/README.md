@@ -26,7 +26,7 @@ Sveltos motto: **"adding a new cluster with the right labels automatically bring
 * **Orchestrated Deployment Order**: The Sveltos CRDs (Custom Resource Definition) are deployed in the exact order they appear in the definition file. That ensures a predictable and controlled deployment order.
 * **Multitenancy**: Sveltos was created with the multitenancy concept in mind.Sveltos `ClusterProfile` and `Profile` resources allow platform administrators to facilitate full isolation or tenants sharing a cluster.
 * **Events**: `Sveltos Event Framework` allows the deployment of add-ons and applications in response to specific events with the use of the [Lua](https://www.lua.org/) language. That allows dynamic and adaptable deployments based on different needs and use cases.
-* [**Managed Services**](https://projectsveltos.github.io/sveltos/events/managed-services/)
+* [**Managed Services**](https://projectsveltos.github.io/sveltos/events/managed-services/) 
 
 ## Why Sveltos?
 
@@ -98,7 +98,7 @@ We love to hear from our community!
 * <img src="https://github.com/projectsveltos/.github/blob/main/docs/slack_logo.png" alt="Slack" width="25" /> [Slack](https://join.slack.com/t/projectsveltos/shared_invite/zt-1hraownbr-W8NTs6LTimxLPB8Erj8Q6Q)
 * <img src="https://github.com/projectsveltos/.github/blob/main/docs/email_logo.png" alt="Email" width="25" /> [Email](mailto:support@projectsveltos.io)
 * <img src="https://github.com/projectsveltos/.github/blob/main/docs/twitter_logo.png" alt="X" width="25" /> [X](https://x.com/projectsveltos)
-* <img src="https://github.com/projectsveltos/.github/blob/main/docs/linkedin_logo.png" alt="Linkedin" width="25" /> [LinkedIn](https://www.linkedin.com/company/projectsveltos/)
+* <img src="https://github.com/projectsveltos/.github/blob/main/docs/linkedin_logo.png" alt="X" width="25" /> [LinkedIn](https://www.linkedin.com/company/projectsveltos/)
 
 ## **Enterprise Offering**
 Interested in our enterprise offering? [Enterprise offering](https://sveltos.projectsveltos.io/#pricing)
