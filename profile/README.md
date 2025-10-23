@@ -101,7 +101,8 @@ We love to hear from our community!
 * <img src="https://github.com/projectsveltos/.github/blob/main/docs/linkedin_logo.png" alt="Linkedin" width="25" /> [LinkedIn](https://www.linkedin.com/company/projectsveltos/)
 
 ## **Enterprise Offering**
-Interested in our enterprise offering? [Enterprise offering](https://sveltos.projectsveltos.io/#pricing)
+* Interested in our enterprise offering? [Enterprise offering](https://sveltos.projectsveltos.io/#pricing)
+* <img src="https://github.com/projectsveltos/.github/blob/main/docs/book_consultation.png" alt="Linkedin" width="25" /> [Book 30 minute meeting](https://cal.com/gianluca-mardente-nuclsu/30min)
 
 ## License
 
