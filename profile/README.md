@@ -5,6 +5,9 @@
 
 👋 Welcome to our project! Our [documentation](https://projectsveltos.github.io/sveltos/) will help you get started and provides an in-depth information about the projects and the features.
 
+Feel free to book a demo [here](https://cal.com/gianluca-mardente-nuclsu/30min).  
+For information on enterprise support, contact us [here](mailto:gianluca@projectsveltos.io).
+
 ## ✨ What is Project Sveltos?
 
 [Sveltos](https://github.com/projectsveltos "Manage Kubernetes add-ons") is a Kubernetes **add-on controller** that simplifies the deployment and management of Kubernetes **add-ons** and **applications** across **multiple** clusters whether on-prem, in the cloud or a multitenant environment.
