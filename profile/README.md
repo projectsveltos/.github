@@ -1,103 +1,53 @@
 # Sveltos: A Kubernetes Add-on Controller that Simplifies Add-on Management
 
-[![Website](https://img.shields.io/badge/website-projectsveltos.io-blue)](https://website.projectsveltos.io/)
-[![X URL](https://img.shields.io/twitter/url/https/twitter.com/projectsveltos.svg?style=social&label=Follow%20%40projectsveltos)](https://x.com/projectsveltos)
+[![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/company/projectsveltos/)
 [![Slack](https://img.shields.io/badge/join%20slack-%23projectsveltos-brighteen)](https://join.slack.com/t/projectsveltos/shared_invite/zt-1hraownbr-W8NTs6LTimxLPB8Erj8Q6Q)
+[![X URL](https://img.shields.io/twitter/url/https/twitter.com/projectsveltos.svg?style=social&label=Follow%20%40projectsveltos)](https://x.com/projectsveltos)
 
-[🌐 Visit our Website](https://website.projectsveltos.io)
+👋 Welcome to **Projectsveltos**!
 
-👋 Welcome to our project! Our [documentation](https://projectsveltos.github.io/sveltos/) will help you get started and provides an in-depth information about the projects and the features.
+<div align="center">
 
-Feel free to book a demo [here](https://cal.com/gianluca-mardente-nuclsu/30min).  
-For information on enterprise support, contact us [here](mailto:gianluca@projectsveltos.io).
+| 🌐 Website | 📚 Documentation | 📅 Book a Demo | 💼 Enterprise Support | 🏢 Adopters |
+|:---:|:---:|:---:|:---:|:---:|
+| [Visit](https://website.projectsveltos.io) | [Get Started](https://projectsveltos.github.io/sveltos/) | [Schedule 30 min](https://cal.com/gianluca-mardente-nuclsu/30min) | [Contact Us](mailto:gianluca@projectsveltos.io) | [View List](https://github.com/projectsveltos/adopters/blob/main/ADOPTERS.md) |
+
+</div>
 
 ## ✨ What is Project Sveltos?
 
-[Sveltos](https://github.com/projectsveltos "Manage Kubernetes add-ons") is a Kubernetes **add-on controller** that simplifies the deployment and management of Kubernetes **add-ons** and **applications** across **multiple** clusters whether on-prem, in the cloud or a multitenant environment.
+[Sveltos](https://github.com/projectsveltos "Manage Kubernetes add-ons") is a Kubernetes **add-on controller** that simplifies the deployment and management of add-ons and applications across **multiple** clusters — on-prem, cloud, or multitenant. It runs in a **management cluster** and supports **Helm charts**, raw **YAML/JSON**, **Kustomize**, **Carvel ytt**, and **Jsonnet**.
 
-Sveltos runs in a **management cluster**. It assists users in programmatically deploying and managing Kubernetes add-ons and applications to **any** cluster in the fleet, including the management cluster.
+Sveltos integrates seamlessly with **Flux CD** to enhance GitOps at scale. Key strengths include multitenancy, agent-based drift detection and synchronisation, and event-driven deployments via the [Lua](https://www.lua.org/)-based **Event Framework**.
 
-Sveltos supports a variety of add-on formats, including **Helm charts**, raw **YAML/JSON**, **Kustomize**, **Carvel ytt**, and **Jsonnet**.
+> **"Adding a new cluster with the right labels automatically brings everything to the desired state."**
 
 <p align="center">
   <img alt="Sveltos Kubernetes add-ons management across clusters" src="https://projectsveltos.github.io/sveltos/assets/multi-clusters.png" width="600"/>
 </p>
 
-Sveltos motto: **"adding a new cluster with the right labels automatically brings everything to the desired state."**
+> [!TIP]
+> If you find this project useful, please give it a [⭐️ star](https://github.com/projectsveltos/addon-controller/stargazers) — it helps more people discover Sveltos!
 
 ## Features
 
-* **Observability**: Sveltos offers different endpoints for notifications. The notifications can be used by other tools to perform additional actions or trigger workflows. The supported types are Slack, Teams, Discord, WebEx, and Kubernetes events.
-* **Templating**: Patching the rendered resources made easy! Sveltos allows Kubernetes add-ons and applications to be represented as templates. Before deploying to the **managed** clusters, Sveltos instantiates the templates with information gathered from either the **management** or the **managed** clusters. This allows consistent definition across multiple clusters with minimal adjustments and administration overhead.
-* **Orchestrated Deployment Order**: The Sveltos CRDs (Custom Resource Definition) are deployed in the exact order they appear in the definition file. That ensures a predictable and controlled deployment order.
-* **Multitenancy**: Sveltos was created with the multitenancy concept in mind.Sveltos `ClusterProfile` and `Profile` resources allow platform administrators to facilitate full isolation or tenants sharing a cluster.
-* **Events**: `Sveltos Event Framework` allows the deployment of add-ons and applications in response to specific events with the use of the [Lua](https://www.lua.org/) language. That allows dynamic and adaptable deployments based on different needs and use cases.
-* [**Managed Services**](https://projectsveltos.github.io/sveltos/events/managed-services/)
-
-## Why Sveltos?
-
-Sveltos was built to address the challenges posed by various CI/CD tools. Sveltos was designed to complement or even replace existing GitOps tools, and its integration with **Flux CD** significantly enhances the GitOps approach at scale.
-
-Key features of Sveltos include multitenancy, agent-based drift notification and synchronisation, and resource optimisation. These features ensure **secure**, **reliable**, and **stable** deployments of Kubernetes add-ons and applications, while reducing operational costs in both on-prem and cloud environments.
-
-👉 If you find this project useful, consider giving it a [⭐️ star](https://github.com/projectsveltos/addon-controller/stargazers)! Your support helps bring more attention to the project, allowing us to enhance it even further.
-
-## Getting Started
-
-* [Quickstart](https://projectsveltos.github.io/sveltos/getting_started/install/quick_start/)
-* [Install Sveltos](https://projectsveltos.github.io/sveltos/getting_started/install/install/)
-
-## Documentation
-
-* [Complete documentation](https://projectsveltos.github.io/sveltos/)
-
-## Dashboard
-
-[![Sveltos Dashboard](https://img.youtube.com/vi/FjFtvrG8LWQ/0.jpg)](https://www.youtube.com/watch?v=FjFtvrG8LWQ)
-
-## Adopters
-
-See the list of [organizations](https://github.com/projectsveltos/adopters/blob/main/ADOPTERS.md) currently using Projectsveltos.
-
-
-🤗 **We encourage contributions!** If your organization uses Projectsveltos, consider adding it to the list. This helps build project momentum and demonstrates the growing community.
-
+* **Templating**: Deploy add-ons as templates, instantiated with data from the management or managed clusters — consistent config across all clusters with minimal overhead.
+* **Orchestrated Deployment Order**: Add-ons deploy in the exact order defined, with support for cross-profile dependencies.
+* **Multitenancy**: `ClusterProfile` and `Profile` resources give platform admins global control and tenant admins namespace-scoped isolation.
+* **Observability**: Notifications via Slack, Teams, Discord, WebEx, and Kubernetes events.
+* **Events**: Deploy add-ons in response to specific cluster events using the [Event Framework](https://projectsveltos.github.io/sveltos/events/managed-services/).
 
 ## See it in Action
 
-[![Sveltos introduction](https://img.youtube.com/vi/bsWEo79w09c/0.jpg)](https://www.youtube.com/watch?v=bsWEo79w09c)
-
-[![Sveltos event framework](https://img.youtube.com/vi/4mOWuOF0gWY/0.jpg)](https://www.youtube.com/watch?v=4mOWuOF0gWY)
-
-[![Sveltos event framework](https://img.youtube.com/vi/GQM7Qn9rWVU/0.jpg)](https://www.youtube.com/watch?v=GQM7Qn9rWVU)
-
 <p align="center">
    <img alt="Kubernetes add-on deployment" src="https://github.com/projectsveltos/sveltos/blob/main/docs/assets/addons_deployment.gif" width="600"/>
- </p>
+</p>
 
 <p align="center">
    <img alt="Configuration drift recovery" src="https://github.com/projectsveltos/demos/blob/main/configuration_drift/reconcile_configuration_drift.gif" width="600"/>
- </p>
+</p>
 
-<p align="center">
-   <img alt="External Secrets Operator and Sveltos integration" src="https://github.com/projectsveltos/sveltos/blob/main/docs/assets/external_secret.gif" width="600"/>
- </p>
-
-<p align="center">
-   <img alt="DB as a Service" src="https://github.com/projectsveltos/sveltos/blob/main/docs/assets/sveltos-db-as-a-service.gif" width="600"/>
- </p>
-
-## Branching model
-
-We use the git-flow branching model. The base branch is dev. If you are looking for a stable version, please use the main branch or tags labeled as v0.x.x.
-
-## 🤗 Contributing to Sveltos
-
-We love to hear from our community!
-
-* Report bugs and suggest features
-* Write documentation
-* Submit code
+[![Sveltos Dashboard](https://img.youtube.com/vi/FjFtvrG8LWQ/0.jpg)](https://www.youtube.com/watch?v=FjFtvrG8LWQ)
 
 ## Contact and community
 
@@ -106,12 +56,8 @@ We love to hear from our community!
 * <img src="https://github.com/projectsveltos/.github/blob/main/docs/twitter_logo.png" alt="X" width="25" /> [X](https://x.com/projectsveltos)
 * <img src="https://github.com/projectsveltos/.github/blob/main/docs/linkedin_logo.png" alt="Linkedin" width="25" /> [LinkedIn](https://www.linkedin.com/company/projectsveltos/)
 
-## **Enterprise Offering**
-* Interested in our enterprise offering? [Enterprise offering](https://sveltos.projectsveltos.io/#pricing)
-* <img src="https://github.com/projectsveltos/.github/blob/main/docs/book_consultation.png" alt="Linkedin" width="25" /> [Book 30 minute meeting](https://cal.com/gianluca-mardente-nuclsu/30min)
+Contributions are always welcome — report bugs, improve docs, or submit code via [GitHub Issues](https://github.com/projectsveltos/sveltos-manager/issues).
 
 ## License
 
 Sveltos is licensed under the Apache License, Version 2.0.
-
-If you like Sveltos, please [star](https://github.com/projectsveltos/addon-controller) [:star:](https://github.com/projectsveltos/addon-controller) the project on GitHub! This will help other people find it and learn more about it.
