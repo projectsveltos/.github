@@ -10,7 +10,7 @@
 
 | 🌐 Website | 📚 Documentation | 🏢 Adopters | 📅 Book a Demo | 💼 Enterprise Support |
 |:---:|:---:|:---:|:---:|:---:|
-| [Visit](https://website.projectsveltos.io) | [Get Started](https://projectsveltos.io/latest/) | [View List](https://github.com/projectsveltos/adopters/blob/main/ADOPTERS.md) |[Schedule 30 min](https://cal.com/gianluca-mardente-nuclsu/30min) | [Contact Us](mailto:gianluca@projectsveltos.io) |
+| [Visit](https://website.projectsveltos.io) | [Get Started](https://projectsveltos.io/latest/) | [View List](https://website.projectsveltos.io/companies/) |[Schedule 30 min](https://cal.com/gianluca-mardente-nuclsu/30min) | [Contact Us](mailto:gianluca@projectsveltos.io) |
 
 </div>
 
@@ -41,9 +41,9 @@ Sveltos stands out for:
 * **👥 Multitenancy**: Use `ClusterProfile` for fleet-wide policies and `Profile` for namespace-scoped tenant isolation.
 * **🧩 Templating**: Define add-ons and applications as templates; Sveltos instantiates them per cluster using cluster metadata.
 * **⚡ Event-driven Framework**: [Trigger deployments](https://projectsveltos.github.io/sveltos/events/managed-services/) from in-cluster or NATS events, with matching logic written in [Lua](https://www.lua.org/) or [CEL](https://cel.dev/).
-* **📢 Observability**: Notifications via Slack, Teams, Discord, Webex, Telegram, SMTP, or Kubernetes events.
 * **🛡️ Pull Mode**: Deploy into restricted environments: air-gapped, edge, or behind firewalls.
 * **🚦 Progressive rollouts**: Phased deployments from a single configuration; no need to maintain multiple profiles.
+* **📢 Observability**: Notifications via Slack, Teams, Discord, Webex, Telegram, SMTP, or Kubernetes events.
 
 ## See it in Action
 
