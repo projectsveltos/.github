@@ -29,7 +29,7 @@ Sveltos stands out for:
 > **"Adding a new cluster with the right labels automatically brings everything to the desired state."**
 
 <p align="center">
-  <img alt="Sveltos Kubernetes add-ons management across clusters" src="https://projectsveltos.github.io/sveltos/assets/multi-clusters.png" width="600"/>
+  <img alt="Sveltos Kubernetes add-ons management across clusters" src="https://raw.githubusercontent.com/projectsveltos/sveltos/refs/heads/main/docs/assets/sveltos_pull_mode_readme.png" width="600"/>
 </p>
 
 > [!TIP]
